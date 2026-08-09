@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#151616" />
     <title>House Interior · Web Model</title>
-    <script type="module" crossorigin src="/house-interior-3d/assets/index-BIyTPhmL.js"></script>
-    <link rel="stylesheet" crossorigin href="/house-interior-3d/assets/index-CdwzlSZz.css">
+    <script type="module" crossorigin src="/house-interior-3d/assets/index-Cw4D-2nJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/house-interior-3d/assets/index-BihQikX6.css">
   </head>
   <body>
     <div id="app">
@@ -21,8 +21,8 @@
           <button class="icon-button active" id="ceiling-toggle" title="显示或隐藏天花"><i data-lucide="layers-2"></i></button>
           <button class="icon-button" id="wireframe-toggle" title="线框"><i data-lucide="box"></i></button>
           <button class="icon-button" id="reset-selection" title="取消选择"><i data-lucide="mouse-pointer-2"></i></button>
-          <button class="vr-command" id="vr-entry" title="进入沉浸式 VR" disabled>
-            <i data-lucide="glasses"></i><span>检测 VR</span>
+          <button class="vr-command" id="vr-entry" title="进入 VR 看房">
+            <i data-lucide="scan-eye"></i><span>VR看房</span>
           </button>
         </div>
         <div class="status"><span class="status-dot"></span><span id="model-status">模型载入中</span></div>
@@ -41,6 +41,17 @@
         <div class="selection-label" id="selection-label" hidden></div>
         <div class="view-badge" id="view-badge">全屋透视</div>
         <div class="vr-toast" id="vr-toast" hidden></div>
+        <div class="tour-fade" id="tour-fade"></div>
+        <section class="tour-ui" id="tour-ui" hidden aria-label="VR看房导航">
+          <div class="tour-heading">
+            <button class="tour-exit" id="tour-exit" title="退出 VR 看房"><i data-lucide="x"></i></button>
+            <div><strong>VR看房</strong><span id="tour-room-name">入户</span></div>
+          </div>
+          <aside class="tour-map" aria-label="户型导航">
+            <div class="tour-map-title"><span>户型导航</span><span id="tour-node-count">--</span></div>
+            <div class="tour-map-points" id="tour-map-points"></div>
+          </aside>
+        </section>
       </main>
 
       <aside class="design-panel">
