@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#151616" />
+    <title>House Interior · Web Model</title>
+    <script type="module" crossorigin src="/house-interior-3d/assets/index-DIPgL81D.js"></script>
+    <link rel="stylesheet" crossorigin href="/house-interior-3d/assets/index-BGVd4QFA.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">H</span>
+          <div><strong>House Interior</strong><span>Monochrome Minimal · Video Style 02</span></div>
+        </div>
+        <div class="toolbar" aria-label="视图工具">
+          <button class="icon-button" id="home-view" title="全貌"><i data-lucide="house"></i></button>
+          <button class="icon-button" id="top-view" title="顶视"><i data-lucide="scan"></i></button>
+          <button class="icon-button active" id="ceiling-toggle" title="显示或隐藏天花"><i data-lucide="layers-2"></i></button>
+          <button class="icon-button" id="wireframe-toggle" title="线框"><i data-lucide="box"></i></button>
+          <button class="icon-button" id="reset-selection" title="取消选择"><i data-lucide="mouse-pointer-2"></i></button>
+        </div>
+        <div class="status"><span class="status-dot"></span><span id="model-status">模型载入中</span></div>
+      </header>
+
+      <aside class="rooms-panel">
+        <div class="panel-title"><span>空间</span><span id="visible-count">--</span></div>
+        <nav id="room-list"></nav>
+      </aside>
+
+      <main class="viewport" id="viewport">
+        <canvas id="scene-canvas"></canvas>
+        <output id="canvas-qa" hidden data-model-loaded="false"></output>
+        <div class="loading" id="loading"><span></span><b>正在读取住宅模型</b></div>
+        <div class="selection-label" id="selection-label" hidden></div>
+        <div class="view-badge" id="view-badge">全屋透视</div>
+      </main>
+
+      <aside class="design-panel">
+        <section class="selection-section">
+          <div class="panel-title"><span>当前对象</span><span id="object-category">未选择</span></div>
+          <h2 id="object-name">全屋</h2>
+          <dl class="object-meta">
+            <div><dt>位置</dt><dd id="object-position">--</dd></div>
+            <div><dt>尺寸</dt><dd id="object-size">--</dd></div>
+          </dl>
+        </section>
+
+        <section class="change-section">
+          <div class="panel-title"><span>装修修改</span><span id="change-count">0</span></div>
+          <label>空间<select id="change-room"></select></label>
+          <label>类型<select id="change-type">
+            <option value="move">移动</option><option value="resize">调整大小</option>
+            <option value="replace">替换家具</option><option value="material">更换材质</option>
+            <option value="add">新增</option><option value="delete">删除</option>
+            <option value="lighting">灯光</option><option value="other">其他</option>
+          </select></label>
+          <label>描述<textarea id="change-description" rows="4" placeholder="例如：餐桌向餐边柜移动 300mm，保持通道宽度"></textarea></label>
+          <button class="primary-command" id="add-change"><i data-lucide="plus"></i><span>加入修改清单</span></button>
+        </section>
+
+        <section class="queue-section">
+          <div class="panel-title"><span>待处理</span><button class="text-command" id="export-changes">导出</button></div>
+          <div id="change-list" class="change-list"></div>
+        </section>
+      </aside>
+    </div>
+  </body>
+</html>
