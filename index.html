@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#151616" />
     <title>House Interior · Web Model</title>
-    <script type="module" crossorigin src="/house-interior-3d/assets/index-DIPgL81D.js"></script>
-    <link rel="stylesheet" crossorigin href="/house-interior-3d/assets/index-BGVd4QFA.css">
+    <script type="module" crossorigin src="/house-interior-3d/assets/index-DDjIhLYe.js"></script>
+    <link rel="stylesheet" crossorigin href="/house-interior-3d/assets/index-CdwzlSZz.css">
   </head>
   <body>
     <div id="app">
@@ -21,6 +21,9 @@
           <button class="icon-button active" id="ceiling-toggle" title="显示或隐藏天花"><i data-lucide="layers-2"></i></button>
           <button class="icon-button" id="wireframe-toggle" title="线框"><i data-lucide="box"></i></button>
           <button class="icon-button" id="reset-selection" title="取消选择"><i data-lucide="mouse-pointer-2"></i></button>
+          <button class="vr-command" id="vr-entry" title="进入沉浸式 VR" disabled>
+            <i data-lucide="glasses"></i><span>检测 VR</span>
+          </button>
         </div>
         <div class="status"><span class="status-dot"></span><span id="model-status">模型载入中</span></div>
       </header>
@@ -33,9 +36,11 @@
       <main class="viewport" id="viewport">
         <canvas id="scene-canvas"></canvas>
         <output id="canvas-qa" hidden data-model-loaded="false"></output>
+        <output id="vr-qa" hidden data-ready="false"></output>
         <div class="loading" id="loading"><span></span><b>正在读取住宅模型</b></div>
         <div class="selection-label" id="selection-label" hidden></div>
         <div class="view-badge" id="view-badge">全屋透视</div>
+        <div class="vr-toast" id="vr-toast" hidden></div>
       </main>
 
       <aside class="design-panel">
