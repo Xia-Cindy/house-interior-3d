@@ -1,5 +1,5 @@
 {
-  "source": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_EnsuiteRevision_v01.blend",
+  "source": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_EnsuiteRevision_v02.blend",
   "objectCount": 280,
   "architectureModified": true,
   "objects": [
@@ -6017,7 +6017,7 @@
       "bounds": {
         "min": [
           -0.31,
-          3.2,
+          3.58,
           1.52
         ],
         "max": [
@@ -6083,7 +6083,7 @@
       "bounds": {
         "min": [
           0.758,
-          3.2,
+          3.58,
           1.52
         ],
         "max": [
