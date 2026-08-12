@@ -1,6 +1,6 @@
 {
-  "source": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_Materials_v01.blend",
-  "objectCount": 278,
+  "source": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_EnsuiteRevision_v01.blend",
+  "objectCount": 280,
   "architectureModified": true,
   "objects": [
     {
@@ -5108,94 +5108,6 @@
       "videoReference": false
     },
     {
-      "name": "VS2_ENSUITE_VANITY",
-      "collections": [
-        "VIDEO_STYLE_02"
-      ],
-      "bounds": {
-        "min": [
-          -0.255,
-          4.36,
-          0.19
-        ],
-        "max": [
-          0.695,
-          4.74,
-          0.77
-        ]
-      },
-      "materials": [
-        "VS2_MAT_SOFT_WHITE"
-      ],
-      "videoReference": false
-    },
-    {
-      "name": "VS2_ENSUITE_BASIN",
-      "collections": [
-        "VIDEO_STYLE_02"
-      ],
-      "bounds": {
-        "min": [
-          -0.21,
-          4.37,
-          0.775
-        ],
-        "max": [
-          0.65,
-          4.73,
-          0.845
-        ]
-      },
-      "materials": [
-        "VS2_MAT_PALE_STONE"
-      ],
-      "videoReference": false
-    },
-    {
-      "name": "VS2_ENSUITE_MIRROR",
-      "collections": [
-        "VIDEO_STYLE_02"
-      ],
-      "bounds": {
-        "min": [
-          -0.23,
-          4.7525,
-          1.26
-        ],
-        "max": [
-          0.67,
-          4.7875,
-          2.04
-        ]
-      },
-      "materials": [
-        "VS2_MAT_SMOKED_GLASS"
-      ],
-      "videoReference": false
-    },
-    {
-      "name": "VS2_ENSUITE_TOILET",
-      "collections": [
-        "VIDEO_STYLE_02"
-      ],
-      "bounds": {
-        "min": [
-          -0.06,
-          3.64,
-          0.09
-        ],
-        "max": [
-          0.46,
-          4.16,
-          0.53
-        ]
-      },
-      "materials": [
-        "VS2_MAT_SOFT_WHITE"
-      ],
-      "videoReference": false
-    },
-    {
       "name": "VS2_ENSUITE_GLASS",
       "collections": [
         "VIDEO_STYLE_02"
@@ -5203,12 +5115,12 @@
       "bounds": {
         "min": [
           -0.28,
-          4.2025,
+          3.5625,
           0.05
         ],
         "max": [
           0.74,
-          4.2375,
+          3.5975,
           2.25
         ]
       },
@@ -5225,12 +5137,12 @@
       "bounds": {
         "min": [
           -0.2875,
-          4.1925,
+          3.5525,
           0.025
         ],
         "max": [
           -0.2525,
-          4.2475,
+          3.6075,
           2.275
         ]
       },
@@ -5247,12 +5159,12 @@
       "bounds": {
         "min": [
           0.7125,
-          4.1925,
+          3.5525,
           0.025
         ],
         "max": [
           0.7475,
-          4.2475,
+          3.6075,
           2.275
         ]
       },
@@ -5720,6 +5632,138 @@
       },
       "materials": [
         "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_BODY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.01,
+          4.07,
+          0.025
+        ],
+        "max": [
+          0.43,
+          4.75,
+          0.42
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_CERAMIC_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_REAR_MODULE",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.035,
+          4.62,
+          0.28
+        ],
+        "max": [
+          0.405,
+          4.75,
+          0.45
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_CERAMIC_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_LID",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.035,
+          4.107,
+          0.414
+        ],
+        "max": [
+          0.405,
+          4.663,
+          0.456
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_CERAMIC_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_TRIM",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.05,
+          4.6525,
+          0.398
+        ],
+        "max": [
+          0.39,
+          4.6775,
+          0.432
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_SATIN_TRIM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_INDICATOR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.175,
+          4.741,
+          0.392
+        ],
+        "max": [
+          0.265,
+          4.753,
+          0.41
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_INDICATOR_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_SIDE_CONTROL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.016,
+          4.629,
+          0.366
+        ],
+        "max": [
+          0.034,
+          4.681,
+          0.418
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_CONTROL_DARK"
       ],
       "videoReference": false
     },
