@@ -1,5 +1,5 @@
 {
-  "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_LivingCleared_v48.blend",
+  "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_MasterWardrobeDepth60_v49.blend",
   "masterBedUpdate": {
     "wallInteriorY": 4.96,
     "platform": [
@@ -118,6 +118,12 @@
     "location_m": [-1.6546, 3.6981, 0.0],
     "rotation_deg": {"before": 90.0, "after": 270.0}
   },
+  "masterWardrobeDepth": {
+    "object": "FURN_MASTER_WARDROBE_2M_ROOT",
+    "depth_m": 0.6,
+    "length_m": 2.2562,
+    "height_m": 2.8
+  },
   "balcony": {
     "status": "CLEARED",
     "removed": ["Tool cabinet", "Sink cabinet", "Counter", "Faucet", "Plants", "Pots", "Storage rack"],
@@ -128,7 +134,7 @@
     "removed": ["TV wall and TV console", "Sofa", "Chaise", "Chairs", "Tables", "Rugs", "Plants", "Floor lamp", "Wall art", "Track fixtures"],
     "preserved": ["Architecture", "Floor", "Baseboards", "CEILING_LIVING_ROOM", "ROOM_VOLUME_LIVING_ROOM", "Cameras", "Render lights"]
   },
-  "lastUpdate": "Cleared all living-room furnishings, cabinets, decorative objects and visible fixtures.",
+  "lastUpdate": "Set the master wardrobe depth to 60 cm and exported the revised model.",
   "removedObjects": [
     "VS2_MASTER_BED_THROW",
     "VS2_ENSUITE_BASIN",
