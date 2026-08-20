@@ -134,7 +134,14 @@
     "removed": ["TV wall and TV console", "Sofa", "Chaise", "Chairs", "Tables", "Rugs", "Plants", "Floor lamp", "Wall art", "Track fixtures"],
     "preserved": ["Architecture", "Floor", "Baseboards", "CEILING_LIVING_ROOM", "ROOM_VOLUME_LIVING_ROOM", "Cameras", "Render lights"]
   },
-  "lastUpdate": "Set the master wardrobe depth to 60 cm and exported the revised model.",
+  "designDemo": {
+    "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_DesignDemo_Base_v01.blend",
+    "asset": "models/house_design_demo.glb",
+    "status": "DECORATION_FREE_BASELINE",
+    "preserved": ["Architecture", "Floors", "Fixed cabinets", "Beds", "Workstation", "Bathroom fixtures", "Rendering lights"],
+    "removed": ["Loose decorative objects", "Table lamps", "Bedroom lamps", "Entry hooks", "Wardrobe wicker baskets"]
+  },
+  "lastUpdate": "Added a decoration-free Design Demo baseline and a homepage model switch.",
   "removedObjects": [
     "VS2_MASTER_BED_THROW",
     "VS2_ENSUITE_BASIN",
