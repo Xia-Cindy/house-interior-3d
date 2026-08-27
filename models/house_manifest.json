@@ -136,10 +136,11 @@
   },
   "designDemo": {
     "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_DesignDemo_Base_v01.blend",
-    "asset": "models/house_design_demo.glb",
-    "status": "DECORATION_FREE_BASELINE",
-    "preserved": ["Architecture", "Floors", "Fixed cabinets", "Beds", "Workstation", "Bathroom fixtures", "Rendering lights"],
-    "removed": ["Loose decorative objects", "Table lamps", "Bedroom lamps", "Entry hooks", "Wardrobe wicker baskets"]
+    "asset": "models/house_design_demo_empty_v02.glb",
+    "status": "EMPTY_ROOM_TEMPLATE",
+    "preserved": ["Walls", "Doors", "Windows", "Floors", "Baseboards", "Bay window architecture"],
+    "removed": ["Furniture", "Cabinets", "Appliances", "Bathroom fixtures", "Decorations", "Ceilings"],
+    "blenderSourceStatus": "GLB_FILTERED_WHILE_BLENDER_MCP_UNAVAILABLE"
   },
   "lastUpdate": "Added a decoration-free Design Demo baseline and a homepage model switch.",
   "removedObjects": [
