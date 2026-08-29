@@ -1,184 +1,8917 @@
 {
-  "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_MasterWardrobeDepth60_v49.blend",
-  "masterBedUpdate": {
-    "wallInteriorY": 4.96,
-    "platform": [
-      [
-        -3.78,
-        -1.92
+  "source": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_NorthBedroomCorridorCabinet_SouthPlatformBed_v55.blend",
+  "objectCount": 405,
+  "architectureModified": true,
+  "objects": [
+    {
+      "name": "WALL_EXT_001",
+      "collections": [
+        "Walls"
       ],
-      [
-        2.8,
-        4.86
+      "bounds": {
+        "min": [
+          -4.93,
+          4.96,
+          0.0
+        ],
+        "max": [
+          2.79,
+          5.2,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
       ],
-      [
-        0.0,
-        0.2
-      ]
-    ],
-    "mattress": [
-      [
-        -3.75,
-        -1.95
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_002",
+      "collections": [
+        "Walls"
       ],
-      [
-        2.86,
-        4.86
+      "bounds": {
+        "min": [
+          2.67,
+          2.62,
+          0.0
+        ],
+        "max": [
+          2.91,
+          5.08,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
       ],
-      [
-        0.2,
-        0.48
-      ]
-    ],
-    "headboard": [
-      [
-        -3.75,
-        -1.95
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_003",
+      "collections": [
+        "Walls"
       ],
-      [
-        4.86,
-        4.96
+      "bounds": {
+        "min": [
+          2.71,
+          2.5,
+          0.0
+        ],
+        "max": [
+          2.79,
+          2.74,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
       ],
-      [
-        0.18,
-        1.38
-      ]
-    ],
-    "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_VideoStyle_02_MasterBed180x200_Corrected_v24.blend"
-  },
-  "deletedCabinets": [
-    "CAB_MASTER_CORNER_A",
-    "CAB_MASTER_CORNER_B",
-    "CAB_MASTER_FULLHEIGHT_1",
-    "CAB_MASTER_FULLHEIGHT_2",
-    "CAB_MASTER_FULLHEIGHT_3"
-  ],
-  "masterBedMove": {
-    "direction": "toward WALL_EXT_020 (-X)",
-    "distance_m": 0.2,
-    "wall020_clearance_m": 0.86
-  },
-  "masterBedClearances": {
-    "to_WALL_EXT_020_m": 0.0,
-    "to_master_workstation_m": 1.2514
-  },
-  "masterBedWall020Alignment": {
-    "status": "TOUCHING_INTERIOR_FACE",
-    "translationTowardWall_m": 0.6302
-  },
-  "constructionDimensions": {
-    "calibrationStatus": "MODEL_CALIBRATED_TO_USER_DIMENSION_PLAN",
-    "masterMattress_m": [1.8, 2.0, 0.25],
-    "masterBedPlatform_m": [1.86, 2.06, 0.2],
-    "masterBedHeadboard_m": [1.8, 0.1, 1.2],
-    "masterWorkstationTop_m": [2.0, 0.65, 0.04],
-    "masterWardrobe_m": [2.0, 0.8, 2.8]
-  },
-  "masterWorkstationPlacement": {
-    "status": "ALIGNED_TO_ENSUITE_ENTRY_SIDE",
-    "physical_width_m": 2.0,
-    "physical_depth_m": 0.65,
-    "physical_thickness_m": 0.04,
-    "ensuite_entry_side_clearance_m": 0.01,
-    "WALL_EXT_001_inner_face_clearance_m": 0.02
-  },
-  "masterWardrobePlacement": {
-    "assetSource": "/Users/xiaxin/Documents/room design/主卧/主卧衣柜_2m_资产预览_v07.blend",
-    "location": "Between the master bed and workstation, parallel to WALL_EXT_001",
-    "dimensions_m": [2.0, 0.8, 2.8],
-    "workstation_clearance_m": 0.2,
-    "bed_clearance_m": 0.5534
-  },
-  "masterMonitorPlacement": {
-    "count": 2,
-    "monitor_body_dimensions_m": [0.65, 0.045, 0.37],
-    "monitor_gap_m": 0.1,
-    "left_table_edge_clearance_m": 0.3,
-    "right_table_edge_clearance_m": 0.3,
-    "placement": "Centered side by side on the master workstation"
-  },
-  "publicBathroom": {
-    "status": "CLEARED",
-    "removed": "All furnishings, fixtures, local lighting, mirrors, glass enclosure and wall finish objects",
-    "preservedArchitecture": ["WALL_INT_016", "WALL_INT_019", "DOOR_D02_SWING_UNVERIFIED"]
-  },
-  "wall003Repair": {
-    "status": "COMPLETED",
-    "filledSegment_m": [0.12, 0.9, 2.8],
-    "description": "Filled the middle opening of WALL_INT_003 and merged it into the existing wall mesh."
-  },
-  "diningRoom": {
-    "status": "CLEARED",
-    "removed": "All dining cabinets, sideboard components, dining tables and dining chairs",
-    "preserved": ["ROOM_VOLUME_DINING", "CEILING_DINING", "LIGHT_RENDER_DINING", "WALL_INT_003"]
-  },
-  "masterWardrobeTurn": {
-    "object": "FURN_MASTER_WARDROBE_2M_ROOT",
-    "operation": "Rotated 180 degrees in place",
-    "location_m": [-1.6546, 3.6981, 0.0],
-    "rotation_deg": {"before": 90.0, "after": 270.0}
-  },
-  "masterWardrobeDepth": {
-    "object": "FURN_MASTER_WARDROBE_2M_ROOT",
-    "depth_m": 0.6,
-    "length_m": 2.2562,
-    "height_m": 2.8
-  },
-  "balcony": {
-    "status": "CLEARED",
-    "removed": ["Tool cabinet", "Sink cabinet", "Counter", "Faucet", "Plants", "Pots", "Storage rack"],
-    "preserved": ["Architecture", "Balcony floor", "CEILING_BALCONY", "ROOM_VOLUME_BALCONY", "Camera_Balcony"]
-  },
-  "livingRoom": {
-    "status": "CLEARED",
-    "removed": ["TV wall and TV console", "Sofa", "Chaise", "Chairs", "Tables", "Rugs", "Plants", "Floor lamp", "Wall art", "Track fixtures"],
-    "preserved": ["Architecture", "Floor", "Baseboards", "CEILING_LIVING_ROOM", "ROOM_VOLUME_LIVING_ROOM", "Cameras", "Render lights"]
-  },
-  "designDemo": {
-    "sourceBlend": "/Users/xiaxin/Documents/room design/House_Interior_Design_DesignDemo_Base_v01.blend",
-    "asset": "models/house_design_demo_empty_v03.glb",
-    "status": "EMPTY_ROOM_TEMPLATE",
-    "preserved": ["Walls", "Doors", "Windows", "Floors", "Baseboards", "Bay window architecture"],
-    "removed": ["Furniture", "Cabinets", "Appliances", "Bathroom fixtures", "Decorations", "Ceilings"],
-    "blenderSourceStatus": "GLB_FILTERED_WHILE_BLENDER_MCP_UNAVAILABLE",
-    "removedInV03": ["Room volume caps", "Full-house exterior outline cap"]
-  },
-  "lastUpdate": "Added a decoration-free Design Demo baseline and a homepage model switch.",
-  "removedObjects": [
-    "VS2_MASTER_BED_THROW",
-    "VS2_ENSUITE_BASIN",
-    "VS2_ENSUITE_VANITY",
-    "VR_MASTER_ART_SHELF",
-    "ASSET:书房_2.4米工作台"
-  ],
-  "ceilingCover": {
-    "status": "DISABLED",
-    "exportMode": "FULL_MODEL_EXCEPT_CEILINGS_AND_ROOM_VOLUMES",
-    "excludedObjects": [
-      "ROOM_VOLUME_BALCONY",
-      "ROOM_VOLUME_BEDROOM_01",
-      "ROOM_VOLUME_BEDROOM_02",
-      "ROOM_VOLUME_DINING",
-      "ROOM_VOLUME_ENSUITE_BATHROOM",
-      "ROOM_VOLUME_ENTRY",
-      "ROOM_VOLUME_KITCHEN",
-      "ROOM_VOLUME_LIVING_ROOM",
-      "ROOM_VOLUME_MAIN_HALLWAY",
-      "ROOM_VOLUME_MASTER_BEDROOM",
-      "ROOM_VOLUME_STUDY",
-      "CEILING_BALCONY",
-      "CEILING_BEDROOM_01",
-      "CEILING_BEDROOM_02",
-      "CEILING_DINING",
-      "CEILING_ENSUITE_BATHROOM",
-      "CEILING_ENTRY",
-      "CEILING_KITCHEN",
-      "CEILING_LIVING_ROOM",
-      "CEILING_MAIN_HALLWAY",
-      "CEILING_MASTER_BEDROOM",
-      "CEILING_STUDY"
-    ],
-    "selectedObjectCount": 405,
-    "temporaryVisibilityRestored": true
-  }
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_004",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          2.59,
+          -0.04,
+          0.0
+        ],
+        "max": [
+          2.83,
+          2.62,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_005",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          2.71,
+          -0.16,
+          0.0
+        ],
+        "max": [
+          4.53,
+          0.08,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_006",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          4.41,
+          -3.56,
+          0.0
+        ],
+        "max": [
+          4.65,
+          -0.04,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_007",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -4.46,
+          0.0
+        ],
+        "max": [
+          4.53,
+          -4.22,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_008",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -6.57,
+          -4.34,
+          0.0
+        ],
+        "max": [
+          -6.33,
+          -1.3,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_009",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -1.42,
+          0.0
+        ],
+        "max": [
+          -5.35,
+          -1.18,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_010",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.47,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -5.23,
+          -0.12,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_011",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          -0.24,
+          0.0
+        ],
+        "max": [
+          -4.61,
+          0.0,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_012",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -4.73,
+          -0.12,
+          0.0
+        ],
+        "max": [
+          -4.49,
+          1.5,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_013",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          1.38,
+          0.0
+        ],
+        "max": [
+          -4.61,
+          1.62,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_014",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.47,
+          1.5,
+          0.0
+        ],
+        "max": [
+          -5.23,
+          1.76,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_015",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          1.64,
+          0.0
+        ],
+        "max": [
+          -4.93,
+          1.88,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_016",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.05,
+          1.76,
+          0.0
+        ],
+        "max": [
+          -4.81,
+          2.36,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_017",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          2.24,
+          0.0
+        ],
+        "max": [
+          -4.93,
+          2.48,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_018",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.55,
+          2.36,
+          0.0
+        ],
+        "max": [
+          -5.31,
+          4.24,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_019",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          4.12,
+          0.0
+        ],
+        "max": [
+          -4.93,
+          4.36,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_EXT_020",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.05,
+          4.24,
+          0.0
+        ],
+        "max": [
+          -4.81,
+          5.08,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_002",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.47,
+          -0.64,
+          0.0
+        ],
+        "max": [
+          -0.35,
+          -0.08,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_003",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.47,
+          0.82,
+          0.0
+        ],
+        "max": [
+          -0.35,
+          2.62,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_005",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -1.51,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -1.39,
+          0.44,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_006",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -1.51,
+          1.34,
+          0.0
+        ],
+        "max": [
+          -1.39,
+          1.74,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_011",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          2.65,
+          -0.04,
+          0.0
+        ],
+        "max": [
+          2.77,
+          4.86,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_012",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -4.93,
+          1.68,
+          0.0
+        ],
+        "max": [
+          -1.45,
+          1.8,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_013",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          1.44,
+          0.0
+        ],
+        "max": [
+          -1.45,
+          1.56,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_014",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -4.67,
+          -2.08,
+          0.0
+        ],
+        "max": [
+          -4.55,
+          1.5,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_015",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -4.61,
+          -1.36,
+          0.0
+        ],
+        "max": [
+          -1.45,
+          -1.24,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_016",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -0.14,
+          0.0
+        ],
+        "max": [
+          2.71,
+          -0.02,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_017",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          2.65,
+          -2.2867,
+          0.0
+        ],
+        "max": [
+          2.77,
+          -0.26,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_019",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -1.36,
+          0.0
+        ],
+        "max": [
+          2.71,
+          -1.24,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_021",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          2.71,
+          -0.32,
+          0.0
+        ],
+        "max": [
+          4.53,
+          -0.2,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_022",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -4.4,
+          0.0
+        ],
+        "max": [
+          4.53,
+          -4.28,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WALL_INT_024",
+      "collections": [
+        "Walls"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          2.56,
+          0.0
+        ],
+        "max": [
+          2.71,
+          2.68,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_FINISH_WARM_WHITE_LATEX_PAINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D01_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          4.27,
+          -4.36,
+          0.05
+        ],
+        "max": [
+          4.27,
+          -3.56,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D02_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -0.94,
+          0.05
+        ],
+        "max": [
+          -0.41,
+          -0.64,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D03_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.36,
+          -0.08,
+          0.05
+        ],
+        "max": [
+          -0.36,
+          0.82,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D04_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -1.46,
+          0.44,
+          0.05
+        ],
+        "max": [
+          -1.46,
+          1.34,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D05_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          1.18,
+          0.05
+        ],
+        "max": [
+          -0.41,
+          2.08,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D06_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.32,
+          3.28,
+          0.05
+        ],
+        "max": [
+          -0.32,
+          3.58,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_D07_SWING_UNVERIFIED",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          1.0,
+          3.28,
+          0.05
+        ],
+        "max": [
+          1.0,
+          3.58,
+          2.05
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D01",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          4.27,
+          -4.36,
+          0.0
+        ],
+        "max": [
+          4.27,
+          -3.56,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D02",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -0.94,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          -0.64,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D03",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.36,
+          -0.08,
+          0.0
+        ],
+        "max": [
+          -0.36,
+          0.82,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D04",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -1.46,
+          0.44,
+          0.0
+        ],
+        "max": [
+          -1.46,
+          1.34,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D05",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          1.18,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          2.08,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D06",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.32,
+          3.28,
+          0.0
+        ],
+        "max": [
+          -0.32,
+          3.58,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_FRAME_D07",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          1.0,
+          3.28,
+          0.0
+        ],
+        "max": [
+          1.0,
+          3.58,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D01",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          4.27,
+          -4.36,
+          0.0
+        ],
+        "max": [
+          4.27,
+          -3.56,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D02",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -0.94,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          -0.64,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D03",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.36,
+          -0.08,
+          0.0
+        ],
+        "max": [
+          -0.36,
+          0.82,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D04",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -1.46,
+          0.44,
+          0.0
+        ],
+        "max": [
+          -1.46,
+          1.34,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D05",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          1.18,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          2.08,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D06",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          -0.32,
+          3.28,
+          0.0
+        ],
+        "max": [
+          -0.32,
+          3.58,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "DOOR_OPENING_D07",
+      "collections": [
+        "Doors"
+      ],
+      "bounds": {
+        "min": [
+          1.0,
+          3.28,
+          0.0
+        ],
+        "max": [
+          1.0,
+          3.58,
+          2.1
+        ]
+      },
+      "materials": [
+        "MAT_DOOR_PLACEHOLDER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W01",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -4.67,
+          5.08,
+          0.9
+        ],
+        "max": [
+          -0.41,
+          5.08,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W02",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          5.08,
+          0.9
+        ],
+        "max": [
+          2.71,
+          5.08,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W03",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          2.36,
+          0.9
+        ],
+        "max": [
+          -5.43,
+          4.24,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W04",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          -0.12,
+          0.9
+        ],
+        "max": [
+          -5.35,
+          1.5,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W05",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -4.34,
+          0.9
+        ],
+        "max": [
+          -6.45,
+          -1.3,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W06",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -3.83,
+          -3.8,
+          0.9
+        ],
+        "max": [
+          -1.43,
+          -3.8,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W07",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          2.69,
+          -4.34,
+          0.9
+        ],
+        "max": [
+          4.53,
+          -4.34,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W08",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          4.53,
+          -3.34,
+          0.9
+        ],
+        "max": [
+          4.53,
+          -1.56,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_OPENING_W09",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          2.71,
+          -0.04,
+          0.9
+        ],
+        "max": [
+          2.71,
+          2.62,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W01_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -4.67,
+          5.08,
+          0.9
+        ],
+        "max": [
+          -0.41,
+          5.08,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W02_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          5.08,
+          0.9
+        ],
+        "max": [
+          2.71,
+          5.08,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W03_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          2.36,
+          0.9
+        ],
+        "max": [
+          -5.43,
+          4.24,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W04_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          -0.12,
+          0.9
+        ],
+        "max": [
+          -5.35,
+          1.5,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W05_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -4.34,
+          0.9
+        ],
+        "max": [
+          -6.45,
+          -1.3,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W06_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          -3.83,
+          -3.8,
+          0.9
+        ],
+        "max": [
+          -1.43,
+          -3.8,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W07_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          2.69,
+          -4.34,
+          0.9
+        ],
+        "max": [
+          4.53,
+          -4.34,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W08_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          4.53,
+          -3.34,
+          0.9
+        ],
+        "max": [
+          4.53,
+          -1.56,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "WINDOW_W09_SILL_UNVERIFIED",
+      "collections": [
+        "Windows"
+      ],
+      "bounds": {
+        "min": [
+          2.71,
+          -0.04,
+          0.9
+        ],
+        "max": [
+          2.71,
+          2.62,
+          2.4
+        ]
+      },
+      "materials": [
+        "MAT_WINDOW_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_01_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          1.494,
+          0.0
+        ],
+        "max": [
+          -1.45,
+          1.506,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_01_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.456,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -1.444,
+          1.5,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_01_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.35,
+          -1.306,
+          0.0
+        ],
+        "max": [
+          -1.45,
+          -1.294,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_01_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.356,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -5.344,
+          1.5,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_02_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          2.614,
+          0.0
+        ],
+        "max": [
+          2.71,
+          2.626,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_02_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          2.704,
+          -0.08,
+          0.0
+        ],
+        "max": [
+          2.716,
+          2.62,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_02_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          -0.086,
+          0.0
+        ],
+        "max": [
+          2.71,
+          -0.074,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__BEDROOM_02_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.824,
+          -0.08,
+          0.0
+        ],
+        "max": [
+          0.836,
+          2.62,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__DINING_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -0.086,
+          0.0
+        ],
+        "max": [
+          2.71,
+          -0.074,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__DINING_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          2.704,
+          -4.34,
+          0.0
+        ],
+        "max": [
+          2.716,
+          -0.08,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__DINING_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.41,
+          -4.346,
+          0.0
+        ],
+        "max": [
+          2.71,
+          -4.334,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__DINING_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.416,
+          -4.34,
+          0.0
+        ],
+        "max": [
+          -0.404,
+          -0.08,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__ENTRY_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.45,
+          1.734,
+          0.0
+        ],
+        "max": [
+          0.83,
+          1.746,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__ENTRY_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.824,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          0.836,
+          1.74,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__ENTRY_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.45,
+          -1.306,
+          0.0
+        ],
+        "max": [
+          0.83,
+          -1.294,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__ENTRY_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.456,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -1.444,
+          1.74,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__LIVING_ROOM_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -1.306,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          -1.294,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__LIVING_ROOM_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.416,
+          -4.34,
+          0.0
+        ],
+        "max": [
+          -0.404,
+          -1.3,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__LIVING_ROOM_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -6.45,
+          -4.346,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          -4.334,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__LIVING_ROOM_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -6.456,
+          -4.34,
+          0.0
+        ],
+        "max": [
+          -6.444,
+          -1.3,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MAIN_HALLWAY_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.39,
+          -1.306,
+          0.0
+        ],
+        "max": [
+          -0.47,
+          -1.294,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MAIN_HALLWAY_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.476,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -0.464,
+          1.78,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MAIN_HALLWAY_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.39,
+          1.774,
+          0.0
+        ],
+        "max": [
+          -0.47,
+          1.786,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MAIN_HALLWAY_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -1.396,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -1.384,
+          1.78,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MASTER_BEDROOM_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          4.234,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          4.246,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MASTER_BEDROOM_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -0.416,
+          1.5,
+          0.0
+        ],
+        "max": [
+          -0.404,
+          4.24,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MASTER_BEDROOM_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.43,
+          1.494,
+          0.0
+        ],
+        "max": [
+          -0.41,
+          1.506,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__MASTER_BEDROOM_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          -5.436,
+          1.5,
+          0.0
+        ],
+        "max": [
+          -5.424,
+          4.24,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__STUDY_01",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          4.854,
+          0.0
+        ],
+        "max": [
+          2.71,
+          4.866,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__STUDY_02",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          2.704,
+          2.62,
+          0.0
+        ],
+        "max": [
+          2.716,
+          4.86,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__STUDY_03",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.83,
+          2.614,
+          0.0
+        ],
+        "max": [
+          2.71,
+          2.626,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "BASEBOARD__STUDY_04",
+      "collections": [
+        "Baseboards"
+      ],
+      "bounds": {
+        "min": [
+          0.824,
+          2.62,
+          0.0
+        ],
+        "max": [
+          0.836,
+          4.86,
+          0.06
+        ]
+      },
+      "materials": [
+        "MAT_FLOOR_DEFAULT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_DESK_TOP",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9594,
+          4.2067,
+          0.7274
+        ],
+        "max": [
+          1.2968,
+          4.94,
+          0.7726
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_DESK_EDGE_FRONT",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9594,
+          4.287,
+          0.6925
+        ],
+        "max": [
+          1.0406,
+          4.305,
+          0.7675
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_MODESTY_PANEL",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9177,
+          4.8875,
+          0.14
+        ],
+        "max": [
+          0.999,
+          4.9225,
+          0.72
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_PEGBOARD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_LEG_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9323,
+          4.3375,
+          0.01
+        ],
+        "max": [
+          -0.8948,
+          4.3825,
+          0.73
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_FOOT_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -1.0219,
+          4.32,
+          0.0125
+        ],
+        "max": [
+          -0.8052,
+          4.4,
+          0.0575
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_LEG_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.976,
+          4.3375,
+          0.01
+        ],
+        "max": [
+          1.0135,
+          4.3825,
+          0.73
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_FOOT_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.8865,
+          4.32,
+          0.0125
+        ],
+        "max": [
+          1.1031,
+          4.4,
+          0.0575
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WORKSTATION_BACK_RAIL",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9094,
+          4.8625,
+          0.6725
+        ],
+        "max": [
+          0.9906,
+          4.8975,
+          0.7075
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEGBOARD",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9594,
+          4.9025,
+          0.83
+        ],
+        "max": [
+          1.0406,
+          4.9275,
+          1.55
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_PEGBOARD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEGBOARD_HOLES",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9119,
+          4.898,
+          0.887
+        ],
+        "max": [
+          0.9773,
+          4.898,
+          1.494
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_PEGBOARD_HOLES"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_SHELF_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.8344,
+          4.78,
+          1.037
+        ],
+        "max": [
+          -0.4844,
+          4.91,
+          1.063
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_SHELF_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.3094,
+          4.78,
+          1.147
+        ],
+        "max": [
+          0.124,
+          4.91,
+          1.173
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_SHELF_03",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.3406,
+          4.78,
+          1.027
+        ],
+        "max": [
+          0.7073,
+          4.91,
+          1.053
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_HOOK_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.8198,
+          4.79,
+          1.255
+        ],
+        "max": [
+          -0.799,
+          4.91,
+          1.365
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_HOOK_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.4198,
+          4.79,
+          1.255
+        ],
+        "max": [
+          -0.399,
+          4.91,
+          1.365
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_HOOK_03",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.1802,
+          4.79,
+          1.255
+        ],
+        "max": [
+          0.201,
+          4.91,
+          1.365
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_PEG_HOOK_04",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.7135,
+          4.79,
+          1.255
+        ],
+        "max": [
+          0.7344,
+          4.91,
+          1.365
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_STRIP",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.501,
+          4.65,
+          0.7925
+        ],
+        "max": [
+          0.5823,
+          4.69,
+          0.8475
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.3615,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          -0.3073,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.2115,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          -0.1573,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_03",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0615,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          -0.0073,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_04",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.0885,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          0.1427,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_05",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.2385,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          0.2927,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_POWER_SOCKET_06",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.3885,
+          4.6375,
+          0.8075
+        ],
+        "max": [
+          0.4427,
+          4.6525,
+          0.8325
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_LEFT_BODY",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9594,
+          4.59,
+          1.66
+        ],
+        "max": [
+          -0.1094,
+          4.93,
+          2.48
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_LEFT_DOOR",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9302,
+          4.566,
+          1.735
+        ],
+        "max": [
+          -0.1385,
+          4.584,
+          2.425
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_CENTER_BODY",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0927,
+          4.59,
+          1.66
+        ],
+        "max": [
+          0.474,
+          4.93,
+          2.48
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_CENTER_SHELF_189",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0635,
+          4.46,
+          1.879
+        ],
+        "max": [
+          0.4448,
+          4.74,
+          1.901
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_CENTER_SHELF_216",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0635,
+          4.46,
+          2.149
+        ],
+        "max": [
+          0.4448,
+          4.74,
+          2.171
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_CENTER_SHELF_243",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0635,
+          4.46,
+          2.419
+        ],
+        "max": [
+          0.4448,
+          4.74,
+          2.441
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_CENTER_GLASS_L",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0844,
+          4.567,
+          1.72
+        ],
+        "max": [
+          0.174,
+          4.583,
+          2.44
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_SMOKED_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_CENTER_GLASS_R",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.2073,
+          4.567,
+          1.72
+        ],
+        "max": [
+          0.4656,
+          4.583,
+          2.44
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_SMOKED_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_RIGHT_BODY",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.5406,
+          4.59,
+          1.66
+        ],
+        "max": [
+          1.0073,
+          4.93,
+          2.48
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_UPPER_RIGHT_DOOR",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.5656,
+          4.566,
+          1.72
+        ],
+        "max": [
+          0.9823,
+          4.584,
+          2.44
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_PEGBOARD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "LIGHT_MASTER_WORKSTATION_UNDERCAB_01",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9594,
+          4.5575,
+          1.611
+        ],
+        "max": [
+          -0.526,
+          4.5825,
+          1.629
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "LIGHT_MASTER_WORKSTATION_UNDERCAB_02",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.4177,
+          4.5575,
+          1.611
+        ],
+        "max": [
+          0.0156,
+          4.5825,
+          1.629
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "LIGHT_MASTER_WORKSTATION_UNDERCAB_03",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.0156,
+          4.5575,
+          1.611
+        ],
+        "max": [
+          0.3656,
+          4.5825,
+          1.629
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "LIGHT_MASTER_WORKSTATION_UNDERCAB_04",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          0.4073,
+          4.5575,
+          1.611
+        ],
+        "max": [
+          0.8406,
+          4.5825,
+          1.629
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_MASTER_WORKSTATION_TOP_FASCIA",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.9427,
+          4.5625,
+          2.44
+        ],
+        "max": [
+          1.024,
+          4.5875,
+          2.5
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "LIGHT_MASTER_WORKSTATION_GLASS_SHELF",
+      "collections": [
+        "Master_Workstation"
+      ],
+      "bounds": {
+        "min": [
+          -0.0427,
+          4.591,
+          2.161
+        ],
+        "max": [
+          0.424,
+          4.609,
+          2.179
+        ]
+      },
+      "materials": [
+        "MAT_MASTER_WORKSTATION_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_BASE",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.92,
+          -2.975,
+          0.01
+        ],
+        "max": [
+          4.48,
+          -0.425,
+          0.91
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_COUNTER",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.905,
+          -2.98,
+          0.9025
+        ],
+        "max": [
+          4.495,
+          -0.42,
+          0.9575
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_UPPER",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          4.025,
+          -2.925,
+          1.63
+        ],
+        "max": [
+          4.475,
+          -0.575,
+          2.41
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_OVEN",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.81,
+          -4.2875,
+          0.93
+        ],
+        "max": [
+          3.29,
+          -4.2525,
+          1.47
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_HOB",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.91,
+          -2.96,
+          0.9575
+        ],
+        "max": [
+          4.39,
+          -2.34,
+          0.9825
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_SINK",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.95,
+          -1.54,
+          0.9475
+        ],
+        "max": [
+          4.33,
+          -0.96,
+          0.9825
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_KITCHEN_FAUCET",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.895,
+          -1.275,
+          0.985
+        ],
+        "max": [
+          3.945,
+          -1.225,
+          1.415
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_TRACK_DINING",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.1325,
+          -3.58,
+          2.7125
+        ],
+        "max": [
+          1.1675,
+          -0.78,
+          2.7475
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_TRACK_KITCHEN",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.5325,
+          -3.8,
+          2.7125
+        ],
+        "max": [
+          3.5675,
+          -0.6,
+          2.7475
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_TRACK_MASTER",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -4.65,
+          2.7325,
+          2.7125
+        ],
+        "max": [
+          -1.05,
+          2.7675,
+          2.7475
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_TRACK_HALL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -0.9375,
+          -1.025,
+          2.7125
+        ],
+        "max": [
+          -0.9025,
+          1.525,
+          2.7475
+        ]
+      },
+      "materials": [
+        "VS2_MAT_BLACK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_0",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -4.56,
+          -2.71,
+          2.6925
+        ],
+        "max": [
+          -4.44,
+          -2.59,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_1",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -3.46,
+          -2.71,
+          2.6925
+        ],
+        "max": [
+          -3.34,
+          -2.59,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_2",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -2.36,
+          -2.71,
+          2.6925
+        ],
+        "max": [
+          -2.24,
+          -2.59,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_3",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.49,
+          -2.24,
+          2.6925
+        ],
+        "max": [
+          0.61,
+          -2.12,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_4",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.69,
+          -2.24,
+          2.6925
+        ],
+        "max": [
+          1.81,
+          -2.12,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_5",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.49,
+          -3.16,
+          2.6925
+        ],
+        "max": [
+          3.61,
+          -3.04,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_6",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          3.49,
+          -1.36,
+          2.6925
+        ],
+        "max": [
+          3.61,
+          -1.24,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_7",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -3.86,
+          2.69,
+          2.6925
+        ],
+        "max": [
+          -3.74,
+          2.81,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_8",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -2.86,
+          2.69,
+          2.6925
+        ],
+        "max": [
+          -2.74,
+          2.81,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_DOWNLIGHT_9",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -1.86,
+          2.69,
+          2.6925
+        ],
+        "max": [
+          -1.74,
+          2.81,
+          2.7175
+        ]
+      },
+      "materials": [
+        "VS2_MAT_WARM_LIGHT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "VS2_ENSUITE_SMART_TOILET_INDICATOR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          0.175,
+          4.741,
+          0.392
+        ],
+        "max": [
+          0.265,
+          4.753,
+          0.41
+        ]
+      },
+      "materials": [
+        "MAT_SMART_TOILET_INDICATOR_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_WET_DECK_RIGHT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6025,
+          4.0288,
+          0.0
+        ],
+        "max": [
+          2.6688,
+          4.8575,
+          0.2486
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_WET_DECK_REAR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3843,
+          4.7746,
+          0.0
+        ],
+        "max": [
+          2.6357,
+          4.8575,
+          0.2486
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_WET_DECK_LEFT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3512,
+          4.0288,
+          0.0
+        ],
+        "max": [
+          1.4175,
+          4.8575,
+          0.2486
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_WET_DECK_FRONT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3843,
+          4.0205,
+          0.0
+        ],
+        "max": [
+          2.6357,
+          4.1199,
+          0.2486
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_VANITY_SUPPORT_RIGHT_VESSEL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.5404,
+          3.6227,
+          0.1492
+        ],
+        "max": [
+          2.6398,
+          4.0169,
+          0.6464
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_VANITY_SUPPORT_LEFT_VESSEL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8451,
+          3.6724,
+          0.1492
+        ],
+        "max": [
+          1.9597,
+          3.9607,
+          0.6464
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_VANITY_SHELF_VESSEL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9769,
+          3.7387,
+          0.3273
+        ],
+        "max": [
+          2.4906,
+          3.921,
+          0.3688
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_VANITY_COUNTER_VESSEL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8277,
+          3.5978,
+          0.6464
+        ],
+        "max": [
+          2.6398,
+          4.0288,
+          0.7044
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_YELLOW_PLAID",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6073,
+          3.2167,
+          0.75
+        ],
+        "max": [
+          2.6321,
+          3.4818,
+          1.1063
+        ]
+      },
+      "materials": [
+        "MAT_FABRIC_TOWEL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_REAR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.5832,
+          3.5419,
+          0.721
+        ],
+        "max": [
+          2.6098,
+          3.5709,
+          1.2347
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_FRONT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.5832,
+          3.1276,
+          0.721
+        ],
+        "max": [
+          2.6098,
+          3.1566,
+          1.2347
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_05",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          0.7686
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          0.7893
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_04",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          0.8515
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          0.8722
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_03",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          0.9343
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          0.9551
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          1.0172
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          1.0379
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          1.1001
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          1.1208
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_RAIL_BAR_00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.582,
+          3.1421,
+          1.1747
+        ],
+        "max": [
+          2.611,
+          3.5564,
+          1.1954
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_VERTICAL_02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.4031,
+          0.75
+        ],
+        "max": [
+          2.64,
+          3.4197,
+          1.1063
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_VERTICAL_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.341,
+          0.75
+        ],
+        "max": [
+          2.64,
+          3.3575,
+          1.1063
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_VERTICAL_00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.2788,
+          0.75
+        ],
+        "max": [
+          2.64,
+          3.2954,
+          1.1063
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_HORIZONTAL_02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.2167,
+          0.8121
+        ],
+        "max": [
+          2.64,
+          3.4818,
+          0.8287
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_HORIZONTAL_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.2167,
+          0.9281
+        ],
+        "max": [
+          2.64,
+          3.4818,
+          0.9447
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOWEL_PLAID_HORIZONTAL_00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6325,
+          3.2167,
+          1.0441
+        ],
+        "max": [
+          2.64,
+          3.4818,
+          1.0607
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOILET_SEAT_RING",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.5418,
+          3.1543,
+          0.3652
+        ],
+        "max": [
+          1.8981,
+          3.6104,
+          0.3971
+        ]
+      },
+      "materials": [
+        "MAT_PLASTIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOILET_REAR_BODY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.5542,
+          2.9929,
+          0.1326
+        ],
+        "max": [
+          1.8857,
+          3.1918,
+          0.4309
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOILET_LID",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.5501,
+          3.1379,
+          0.3688
+        ],
+        "max": [
+          1.8898,
+          3.5937,
+          0.4433
+        ]
+      },
+      "materials": [
+        "MAT_PLASTIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOILET_CONTROL_STRIP",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.5957,
+          3.1089,
+          0.4218
+        ],
+        "max": [
+          1.8443,
+          3.1752,
+          0.44
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_TOILET_BODY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.5459,
+          3.0343,
+          -0.0083
+        ],
+        "max": [
+          1.894,
+          3.5978,
+          0.3895
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_STEP_LED_GEOMETRY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4424,
+          3.7876,
+          0.1309
+        ],
+        "max": [
+          1.7987,
+          3.8058,
+          0.1425
+        ]
+      },
+      "materials": [
+        "MAT_LED_WARM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_STEP_03_HIGH",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4216,
+          3.921,
+          0.0
+        ],
+        "max": [
+          1.7907,
+          4.0951,
+          0.2486
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_STEP_02_MID",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3968,
+          3.7884,
+          0.0
+        ],
+        "max": [
+          1.8403,
+          3.979,
+          0.1657
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_STEP_01_LOW",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3802,
+          3.6393,
+          0.0
+        ],
+        "max": [
+          1.8736,
+          3.8465,
+          0.0829
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_SHOWER_SHELF_158",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.4948,
+          4.2525,
+          1.2977
+        ],
+        "max": [
+          2.6357,
+          4.3354,
+          1.3209
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_SHOWER_SHELF_130",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.4948,
+          4.2525,
+          1.0657
+        ],
+        "max": [
+          2.6357,
+          4.3354,
+          1.0889
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_SHOWER_SHELF_100",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.4948,
+          4.2525,
+          0.8171
+        ],
+        "max": [
+          2.6357,
+          4.3354,
+          0.8403
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_SHOWER_RAIN_HEAD",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1923,
+          4.3768,
+          1.7029
+        ],
+        "max": [
+          2.3912,
+          4.4763,
+          1.7278
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_MIRROR_REFLECTION_DOOR_FRAME_B",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6357,
+          3.8804,
+          1.0524
+        ],
+        "max": [
+          2.6406,
+          3.8953,
+          1.4005
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_MIRROR_REFLECTION_DOOR_FRAME_A",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6357,
+          3.7064,
+          1.0856
+        ],
+        "max": [
+          2.6406,
+          3.7213,
+          1.4833
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_MIRROR_LED_RING",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6329,
+          3.4992,
+          0.987
+        ],
+        "max": [
+          2.655,
+          4.1274,
+          1.6151
+        ]
+      },
+      "materials": [
+        "MAT_LED_WARM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_MIRROR_DISC",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.6522,
+          3.515,
+          1.0027
+        ],
+        "max": [
+          2.6688,
+          4.1116,
+          1.5994
+        ]
+      },
+      "materials": [
+        "MAT_MIRROR"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_RELIEF_O_07_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0419,
+          3.9757,
+          1.836
+        ],
+        "max": [
+          2.114,
+          3.9807,
+          1.908
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_RELIEF_O_05_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0419,
+          3.9757,
+          1.5095
+        ],
+        "max": [
+          2.114,
+          3.9807,
+          1.5815
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_RELIEF_O_03_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0419,
+          3.9757,
+          1.1829
+        ],
+        "max": [
+          2.114,
+          3.9807,
+          1.255
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_RELIEF_O_01_01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0419,
+          3.9757,
+          0.8564
+        ],
+        "max": [
+          2.114,
+          3.9807,
+          0.9285
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_FRAME_TOP",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8028,
+          3.9749,
+          2.1567
+        ],
+        "max": [
+          2.3498,
+          4.0661,
+          2.1857
+        ]
+      },
+      "materials": [
+        "MAT_GLASS_JOINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_FRAME_RIGHT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.3145,
+          3.9749,
+          0.6795
+        ],
+        "max": [
+          2.3353,
+          4.0661,
+          2.1712
+        ]
+      },
+      "materials": [
+        "MAT_GLASS_JOINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_FRAME_LEFT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8173,
+          3.9749,
+          0.6795
+        ],
+        "max": [
+          1.838,
+          4.0661,
+          2.1712
+        ]
+      },
+      "materials": [
+        "MAT_GLASS_JOINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_FRAME_BOTTOM",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8028,
+          3.9749,
+          0.665
+        ],
+        "max": [
+          2.3498,
+          4.0661,
+          0.694
+        ]
+      },
+      "materials": [
+        "MAT_GLASS_JOINT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R08_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.9586
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          2.1119
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R08_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.9586
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          2.1119
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R08_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.9586
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          2.1119
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R07_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.7953
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.9487
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R07_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.7953
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.9487
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R07_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.7953
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.9487
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R06_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.6321
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.7854
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R06_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.6321
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.7854
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R06_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.6321
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.7854
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R05_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.4688
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.6222
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R05_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.4688
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.6222
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R05_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.4688
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.6222
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R04_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.3056
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.4589
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R04_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.3056
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.4589
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R04_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.3056
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.4589
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R03_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          1.1423
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.2956
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R03_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          1.1423
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.2956
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R03_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          1.1423
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.2956
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R02_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          0.9791
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          1.1324
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R02_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          0.9791
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          1.1324
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R02_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          0.9791
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          1.1324
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R01_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          0.8158
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          0.9691
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R01_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          0.8158
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          0.9691
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R01_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          0.8158
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          0.9691
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R00_C02",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.1666,
+          3.9832,
+          0.6526
+        ],
+        "max": [
+          2.3241,
+          4.0578,
+          0.8059
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R00_C01",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.9992,
+          3.9832,
+          0.6526
+        ],
+        "max": [
+          2.1567,
+          4.0578,
+          0.8059
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_GLASS_BRICK_R00_C00",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8318,
+          3.9832,
+          0.6526
+        ],
+        "max": [
+          1.9893,
+          4.0578,
+          0.8059
+        ]
+      },
+      "materials": [
+        "MAT_GLASS"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_FAUCET_BASE",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0282,
+          3.96,
+          0.7127
+        ],
+        "max": [
+          2.0746,
+          4.0064,
+          0.8701
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BIDET_SPRAY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3491,
+          3.6082,
+          0.5014
+        ],
+        "max": [
+          1.3864,
+          3.6538,
+          0.692
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_WATER",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4807,
+          4.1775,
+          0.0948
+        ],
+        "max": [
+          2.5427,
+          4.7088,
+          0.2113
+        ]
+      },
+      "materials": [
+        "MAT_WATER"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_SIDE_WOOD_TRAY",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.446,
+          4.1125,
+          0.2838
+        ],
+        "max": [
+          1.9111,
+          4.2931,
+          0.3128
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_SHELL_RIGHT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.5362,
+          4.1199,
+          0.0
+        ],
+        "max": [
+          2.5859,
+          4.7663,
+          0.232
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_SHELL_REAR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4341,
+          4.7166,
+          0.0
+        ],
+        "max": [
+          2.5859,
+          4.7663,
+          0.232
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_SHELL_LEFT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4341,
+          4.1199,
+          0.0
+        ],
+        "max": [
+          1.4838,
+          4.7663,
+          0.232
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_SHELL_FRONT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4341,
+          4.1199,
+          0.0
+        ],
+        "max": [
+          2.5859,
+          4.1696,
+          0.232
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RIM_RIGHT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.5404,
+          4.0785,
+          0.2507
+        ],
+        "max": [
+          2.6067,
+          4.8077,
+          0.288
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RIM_REAR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4133,
+          4.7331,
+          0.2507
+        ],
+        "max": [
+          2.6067,
+          4.7994,
+          0.288
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RIM_LEFT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4133,
+          4.0785,
+          0.2507
+        ],
+        "max": [
+          1.4796,
+          4.8077,
+          0.288
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RIM_FRONT",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4133,
+          4.0868,
+          0.2507
+        ],
+        "max": [
+          2.6067,
+          4.1531,
+          0.288
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RECESSED_SHELF_WOOD",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3636,
+          4.7456,
+          0.81
+        ],
+        "max": [
+          2.1592,
+          4.8533,
+          0.8473
+        ]
+      },
+      "materials": [
+        "MAT_WOOD"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RECESSED_SHELF_BACK",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3802,
+          4.8305,
+          0.8121
+        ],
+        "max": [
+          2.1426,
+          4.8595,
+          1.0441
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BATH_RECESS_FLOOR",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.4341,
+          4.1199,
+          -0.029
+        ],
+        "max": [
+          2.5859,
+          4.7663,
+          0.0124
+        ]
+      },
+      "materials": [
+        "MAT_WALL_CREAM"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BASIN_VESSEL_RIM",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.8608,
+          3.6985,
+          0.7533
+        ],
+        "max": [
+          2.242,
+          4.011,
+          0.7798
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BASIN_VESSEL_OVAL",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.866,
+          3.7023,
+          0.6422
+        ],
+        "max": [
+          2.2369,
+          4.0072,
+          0.7637
+        ]
+      },
+      "materials": [
+        "MAT_WHITE_CERAMIC"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_BASIN_VESSEL_DRAIN",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          2.0291,
+          3.8324,
+          0.6455
+        ],
+        "max": [
+          2.0738,
+          3.8771,
+          0.6555
+        ]
+      },
+      "materials": [
+        "MAT_BLACK_METAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "UPPER_ENSUITE_DOOR_TOWARD_WALL_EXT_018",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          1.3068,
+          3.0261,
+          0.0166
+        ],
+        "max": [
+          1.3524,
+          4.96,
+          1.6905
+        ]
+      },
+      "materials": [
+        "MAT_WOOD.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_BAY_WINDOW_BASE_1400x500",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -5.81,
+          2.335,
+          0.0
+        ],
+        "max": [
+          -5.31,
+          3.735,
+          0.43
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_BAY_WINDOW_SILL_1400x500",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -5.83,
+          2.325,
+          0.43
+        ],
+        "max": [
+          -5.31,
+          3.745,
+          0.46
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_BED_PLATFORM",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -4.81,
+          2.5361,
+          -0.0128
+        ],
+        "max": [
+          -2.7117,
+          4.86,
+          0.2128
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_BED_MATTRESS",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -4.7762,
+          2.6038,
+          0.199
+        ],
+        "max": [
+          -2.7456,
+          4.86,
+          0.481
+        ]
+      },
+      "materials": [
+        "VS2_MAT_LIGHT_GREY_TEXTILE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_BED_HEADBOARD",
+      "collections": [
+        "VIDEO_STYLE_02"
+      ],
+      "bounds": {
+        "min": [
+          -4.7762,
+          4.8472,
+          0.1031
+        ],
+        "max": [
+          -2.7456,
+          4.96,
+          1.4569
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_PHONE",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.15,
+          0.3475,
+          1.182
+        ],
+        "max": [
+          1.31,
+          0.4125,
+          1.198
+        ]
+      },
+      "materials": [
+        "MAT_DARK_ACCENT"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_RIGHT_SIDE_BAY_TOP",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.235,
+          0.06,
+          1.7325
+        ],
+        "max": [
+          2.575,
+          0.36,
+          1.7675
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_RIGHT_SIDE_BAY_REAR",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.235,
+          0.0525,
+          1.04
+        ],
+        "max": [
+          2.575,
+          0.0775,
+          1.74
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_RIGHT_SIDE_BAY_LED",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.603,
+          0.085,
+          1.72
+        ],
+        "max": [
+          2.621,
+          0.335,
+          1.74
+        ]
+      },
+      "materials": [
+        "MAT_WARM_LED"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_RIGHT_SIDE_BAY_BOTTOM",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.235,
+          0.06,
+          1.0125
+        ],
+        "max": [
+          2.575,
+          0.36,
+          1.0475
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_RIGHT_SIDE_BAY_BACK",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.202,
+          0.06,
+          1.04
+        ],
+        "max": [
+          2.228,
+          0.36,
+          1.74
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_OUTER_TOP",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.92,
+          -0.02,
+          2.62
+        ],
+        "max": [
+          2.62,
+          0.53,
+          2.7
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_OUTER_RIGHT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.88,
+          -0.02,
+          0.0
+        ],
+        "max": [
+          0.96,
+          0.53,
+          2.7
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_OUTER_LEFT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.58,
+          -0.02,
+          0.0
+        ],
+        "max": [
+          2.66,
+          0.53,
+          2.7
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_TOP",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.95,
+          0.27,
+          1.43
+        ],
+        "max": [
+          2.17,
+          0.45,
+          1.47
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_RIGHT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.91,
+          0.27,
+          1.13
+        ],
+        "max": [
+          0.95,
+          0.45,
+          1.44
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_LEFT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.17,
+          0.27,
+          1.13
+        ],
+        "max": [
+          2.21,
+          0.45,
+          1.44
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_LED",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.01,
+          0.436,
+          1.416
+        ],
+        "max": [
+          2.11,
+          0.454,
+          1.434
+        ]
+      },
+      "materials": [
+        "MAT_WARM_LED"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_BOTTOM",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.95,
+          0.27,
+          1.1
+        ],
+        "max": [
+          2.17,
+          0.45,
+          1.14
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_NICHE_BACK",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.95,
+          0.1275,
+          1.145
+        ],
+        "max": [
+          2.17,
+          0.1625,
+          1.455
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_LEFT_UPPER_DOOR",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.23,
+          0.535,
+          1.55
+        ],
+        "max": [
+          2.59,
+          0.58,
+          2.65
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_LEFT_REVEAL",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.1775,
+          0.535,
+          0.08
+        ],
+        "max": [
+          2.2125,
+          0.58,
+          2.62
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_LEFT_DRAWER_3",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.23,
+          0.535,
+          0.68
+        ],
+        "max": [
+          2.59,
+          0.58,
+          0.94
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_LEFT_DRAWER_2",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.23,
+          0.535,
+          0.38
+        ],
+        "max": [
+          2.59,
+          0.58,
+          0.64
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_LEFT_DRAWER_1",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.23,
+          0.535,
+          0.08
+        ],
+        "max": [
+          2.59,
+          0.58,
+          0.34
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_FRONT_DOOR_4",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.957,
+          0.535,
+          1.55
+        ],
+        "max": [
+          1.248,
+          0.58,
+          2.65
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_FRONT_DOOR_3",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.262,
+          0.535,
+          1.55
+        ],
+        "max": [
+          1.553,
+          0.58,
+          2.65
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_FRONT_DOOR_2",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.567,
+          0.535,
+          1.55
+        ],
+        "max": [
+          1.858,
+          0.58,
+          2.65
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_FRONT_DOOR_1",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.872,
+          0.535,
+          1.55
+        ],
+        "max": [
+          2.163,
+          0.58,
+          2.65
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_CAB_BACK",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.92,
+          -0.02,
+          0.0
+        ],
+        "max": [
+          2.62,
+          0.08,
+          2.7
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BOOK_PINK",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.43,
+          0.305,
+          1.175
+        ],
+        "max": [
+          1.61,
+          0.415,
+          1.235
+        ]
+      },
+      "materials": [
+        "MAT_BOOK_PINK"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BOOK_BLUE",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.6,
+          0.305,
+          1.175
+        ],
+        "max": [
+          1.78,
+          0.415,
+          1.265
+        ]
+      },
+      "materials": [
+        "MAT_BOOK_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BEDHEAD_SHELF_TOP",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.37,
+          1.71,
+          1.41
+        ],
+        "max": [
+          2.59,
+          2.03,
+          1.45
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BEDHEAD_SHELF_RIGHT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.59,
+          1.71,
+          1.125
+        ],
+        "max": [
+          2.63,
+          2.03,
+          1.425
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BEDHEAD_SHELF_LEFT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.33,
+          1.71,
+          1.125
+        ],
+        "max": [
+          1.37,
+          2.03,
+          1.425
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BEDHEAD_SHELF_LED",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.43,
+          1.731,
+          1.395
+        ],
+        "max": [
+          2.53,
+          1.749,
+          1.415
+        ]
+      },
+      "materials": [
+        "MAT_WARM_LED"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BEDHEAD_SHELF_BOTTOM",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.37,
+          1.71,
+          1.1
+        ],
+        "max": [
+          2.59,
+          2.03,
+          1.14
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_TRUE_RIGHT_DRAWER_GAP_2",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.638,
+          0.6,
+          0.243
+        ],
+        "max": [
+          2.646,
+          1.36,
+          0.257
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_TRUE_RIGHT_DRAWER_GAP_1",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.638,
+          1.53,
+          0.243
+        ],
+        "max": [
+          2.646,
+          2.29,
+          0.257
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_TRUE_RIGHT_DRAWER_2",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.619,
+          0.57,
+          0.1
+        ],
+        "max": [
+          2.645,
+          1.39,
+          0.4
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_TRUE_RIGHT_DRAWER_1",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.619,
+          1.5,
+          0.1
+        ],
+        "max": [
+          2.645,
+          2.32,
+          0.4
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_PLATFORM",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.92,
+          0.58,
+          0.01
+        ],
+        "max": [
+          2.62,
+          2.58,
+          0.41
+        ]
+      },
+      "materials": [
+        "MAT_WARM_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_PILLOW_2",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.0061,
+          0.7574,
+          0.67
+        ],
+        "max": [
+          1.6939,
+          1.2226,
+          0.83
+        ]
+      },
+      "materials": [
+        "MAT_CHECKED_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_PILLOW_1",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          1.8461,
+          0.7574,
+          0.67
+        ],
+        "max": [
+          2.5339,
+          1.2226,
+          0.83
+        ]
+      },
+      "materials": [
+        "MAT_CHECKED_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BED_MATTRESS",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          0.95,
+          0.61,
+          0.4
+        ],
+        "max": [
+          2.59,
+          2.55,
+          0.66
+        ]
+      },
+      "materials": [
+        "MAT_SOFT_WHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BACKPACK_TRUE_RIGHT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.33,
+          0.1,
+          1.2
+        ],
+        "max": [
+          2.45,
+          0.32,
+          1.56
+        ]
+      },
+      "materials": [
+        "MAT_CHECKED_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "NORTH_KID_BACKPACK_FLAP_TRUE_RIGHT",
+      "collections": [
+        "NorthBedroom_Furniture"
+      ],
+      "bounds": {
+        "min": [
+          2.466,
+          0.12,
+          1.33
+        ],
+        "max": [
+          2.484,
+          0.3,
+          1.53
+        ]
+      },
+      "materials": [
+        "MAT_CHECKED_BLUE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_01_WARDROBE_CENTER_BACK",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.3992,
+          3.3935,
+          0.0396
+        ],
+        "max": [
+          -1.3704,
+          4.0252,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_BLACK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_02_WARDROBE_CENTER_GARMENT_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7733,
+          3.7968,
+          1.0698
+        ],
+        "max": [
+          -1.6942,
+          3.8927,
+          1.6442
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_FABRIC.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_03_WARDROBE_CENTER_GARMENT_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7733,
+          3.684,
+          1.0698
+        ],
+        "max": [
+          -1.6942,
+          3.7799,
+          1.6442
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_FABRIC.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_04_WARDROBE_CENTER_GARMENT_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7733,
+          3.5599,
+          1.0698
+        ],
+        "max": [
+          -1.6942,
+          3.6558,
+          1.6442
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_FABRIC.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_05_WARDROBE_CENTER_HANGING_ROD",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7971,
+          3.4499,
+          1.666
+        ],
+        "max": [
+          -1.7712,
+          3.9688,
+          1.7017
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_06_WARDROBE_CENTER_LED_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9057,
+          3.4442,
+          2.1078
+        ],
+        "max": [
+          -1.8928,
+          3.9744,
+          2.1217
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_07_WARDROBE_CENTER_LED_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9057,
+          3.4442,
+          2.4248
+        ],
+        "max": [
+          -1.8928,
+          3.9744,
+          2.4386
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_08_WARDROBE_CENTER_SHELF_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9208,
+          3.4104,
+          2.137
+        ],
+        "max": [
+          -1.4172,
+          4.0083,
+          2.1816
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WALNUT_MID.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_09_WARDROBE_CENTER_SHELF_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9208,
+          3.4104,
+          2.454
+        ],
+        "max": [
+          -1.4172,
+          4.0083,
+          2.4986
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WALNUT_MID.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_10_WARDROBE_CENTER_SIDE_L",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9424,
+          4.0168,
+          0.0
+        ],
+        "max": [
+          -1.3669,
+          4.0562,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_11_WARDROBE_CENTER_SIDE_R",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9424,
+          3.3596,
+          0.0
+        ],
+        "max": [
+          -1.3669,
+          3.4048,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_12_WARDROBE_CENTER_TOP",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9424,
+          3.3822,
+          2.6942
+        ],
+        "max": [
+          -1.3669,
+          4.0365,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_WARDROBE_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_13_WARDROBE_LEFT_CARCASS",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9424,
+          4.0365,
+          0.0
+        ],
+        "max": [
+          -1.3669,
+          4.8262,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_14_WARDROBE_LEFT_DOOR_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9625,
+          4.4392,
+          0.0297
+        ],
+        "max": [
+          -1.9424,
+          4.8183,
+          2.7437
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_15_WARDROBE_LEFT_DOOR_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9625,
+          4.0444,
+          0.0297
+        ],
+        "max": [
+          -1.9424,
+          4.4234,
+          2.7437
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_16_WARDROBE_LEFT_REVEAL_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9669,
+          4.4618,
+          0.1238
+        ],
+        "max": [
+          -1.9625,
+          4.4686,
+          2.6496
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_17_WARDROBE_LEFT_REVEAL_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9669,
+          4.067,
+          0.1238
+        ],
+        "max": [
+          -1.9625,
+          4.0737,
+          2.6496
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_18_WARDROBE_RIGHT_CURVED_INSET_LED",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9645,
+          3.3122,
+          1.2573
+        ],
+        "max": [
+          -1.9563,
+          3.4245,
+          2.397
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_19_WARDROBE_RIGHT_CURVED_WOOD_FASCIA",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9532,
+          3.0573,
+          1.1262
+        ],
+        "max": [
+          -1.9028,
+          3.5435,
+          2.4941
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_20_WARDROBE_RIGHT_DISPLAY_COUNTER",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9388,
+          2.5813,
+          1.1366
+        ],
+        "max": [
+          -1.3776,
+          3.3258,
+          1.201
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_21_WARDROBE_RIGHT_DISPLAY_COUNTER_LED",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9481,
+          2.632,
+          1.1876
+        ],
+        "max": [
+          -1.9395,
+          3.2525,
+          1.1995
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_22_WARDROBE_RIGHT_DISPLAY_LEFT_STILE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9352,
+          3.0032,
+          1.4511
+        ],
+        "max": [
+          -1.3956,
+          3.0393,
+          2.4713
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_23_WARDROBE_RIGHT_DISPLAY_LIGHT_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9251,
+          2.6241,
+          1.4263
+        ],
+        "max": [
+          -1.9165,
+          2.9851,
+          1.4362
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_24_WARDROBE_RIGHT_DISPLAY_LIGHT_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9251,
+          2.6241,
+          1.674
+        ],
+        "max": [
+          -1.9165,
+          2.9851,
+          1.6839
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_25_WARDROBE_RIGHT_DISPLAY_LIGHT_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9251,
+          2.6241,
+          1.9216
+        ],
+        "max": [
+          -1.9165,
+          2.9851,
+          1.9315
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_26_WARDROBE_RIGHT_DISPLAY_LIGHT_4",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9251,
+          2.6241,
+          2.1692
+        ],
+        "max": [
+          -1.9165,
+          2.9851,
+          2.1791
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_27_WARDROBE_RIGHT_DISPLAY_RIGHT_STILE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9352,
+          2.5711,
+          1.4511
+        ],
+        "max": [
+          -1.3956,
+          2.6027,
+          2.4713
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_28_WARDROBE_RIGHT_DISPLAY_SHELF_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9172,
+          2.6016,
+          1.4422
+        ],
+        "max": [
+          -1.4208,
+          3.0077,
+          1.4699
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_29_WARDROBE_RIGHT_DISPLAY_SHELF_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9172,
+          2.6016,
+          1.6898
+        ],
+        "max": [
+          -1.4208,
+          3.0077,
+          1.7175
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_30_WARDROBE_RIGHT_DISPLAY_SHELF_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9172,
+          2.6016,
+          1.9374
+        ],
+        "max": [
+          -1.4208,
+          3.0077,
+          1.9652
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_31_WARDROBE_RIGHT_DISPLAY_SHELF_4",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9172,
+          2.6016,
+          2.1851
+        ],
+        "max": [
+          -1.4208,
+          3.0077,
+          2.2128
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_32_WARDROBE_RIGHT_DISPLAY_TOP",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9352,
+          2.5734,
+          2.4639
+        ],
+        "max": [
+          -1.3956,
+          3.0359,
+          2.5085
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_33_WARDROBE_RIGHT_DISPLAY_WOVEN_BACK",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.4273,
+          2.6072,
+          1.4561
+        ],
+        "max": [
+          -1.4143,
+          3.002,
+          2.4664
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_WOVEN.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_34_WARDROBE_RIGHT_DRAWER_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9539,
+          2.9648,
+          0.0991
+        ],
+        "max": [
+          -1.9266,
+          3.4837,
+          0.2773
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_35_WARDROBE_RIGHT_DRAWER_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9539,
+          2.9648,
+          0.3269
+        ],
+        "max": [
+          -1.9266,
+          3.4837,
+          0.5052
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_36_WARDROBE_RIGHT_DRAWER_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9539,
+          2.9648,
+          0.5547
+        ],
+        "max": [
+          -1.9266,
+          3.4837,
+          0.733
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_37_WARDROBE_RIGHT_DRAWER_4",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9539,
+          2.9648,
+          0.7825
+        ],
+        "max": [
+          -1.9266,
+          3.4837,
+          0.9608
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_38_WARDROBE_RIGHT_DRAWER_BLOCK",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9316,
+          2.9197,
+          0.005
+        ],
+        "max": [
+          -1.3776,
+          3.5289,
+          1.1242
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_MEDIUM.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_39_WARDROBE_RIGHT_DRAWER_REVEAL_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9589,
+          2.9874,
+          0.2803
+        ],
+        "max": [
+          -1.9532,
+          3.4612,
+          0.2902
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_40_WARDROBE_RIGHT_DRAWER_REVEAL_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9589,
+          2.9874,
+          0.5081
+        ],
+        "max": [
+          -1.9532,
+          3.4612,
+          0.518
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_41_WARDROBE_RIGHT_DRAWER_REVEAL_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9589,
+          2.9874,
+          0.7359
+        ],
+        "max": [
+          -1.9532,
+          3.4612,
+          0.7459
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_42_WARDROBE_RIGHT_DRAWER_REVEAL_4",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9589,
+          2.9874,
+          0.9638
+        ],
+        "max": [
+          -1.9532,
+          3.4612,
+          0.9737
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WARM_LED.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_43_WARDROBE_RIGHT_FULL_BACK",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.4046,
+          2.5813,
+          0.0
+        ],
+        "max": [
+          -1.3794,
+          3.5289,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_44_WARDROBE_RIGHT_GARMENT",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.8057,
+          3.165,
+          1.5749
+        ],
+        "max": [
+          -1.7769,
+          3.2496,
+          2.0305
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_GARMENT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_45_WARDROBE_RIGHT_HANDBAG_BODY",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.8489,
+          2.6997,
+          1.4957
+        ],
+        "max": [
+          -1.7769,
+          2.914,
+          1.6343
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_GARMENT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_46_WARDROBE_RIGHT_HANDBAG_HANDLE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.8775,
+          2.7182,
+          1.6286
+        ],
+        "max": [
+          -1.8348,
+          2.8955,
+          1.7532
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BLACK_METAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_47_WARDROBE_RIGHT_HANGING_ROD",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7712,
+          3.0381,
+          2.0187
+        ],
+        "max": [
+          -1.7539,
+          3.4442,
+          2.0424
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_48_WARDROBE_RIGHT_HANGING_SIDE_L",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9352,
+          3.4894,
+          1.3273
+        ],
+        "max": [
+          -1.374,
+          3.5232,
+          2.4763
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_49_WARDROBE_RIGHT_HANGING_TOP",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9352,
+          2.9761,
+          2.454
+        ],
+        "max": [
+          -1.374,
+          3.5063,
+          2.4986
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_50_WARDROBE_RIGHT_HANGING_TOWEL",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9546,
+          3.0483,
+          1.6294
+        ],
+        "max": [
+          -1.9374,
+          3.1069,
+          2.0553
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_GARMENT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_51_WARDROBE_RIGHT_OUTER_SIDE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9424,
+          2.57,
+          0.0
+        ],
+        "max": [
+          -1.3669,
+          2.6038,
+          2.7734
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_WALNUT_DARK.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_52_WARDROBE_RIGHT_TOWEL_HOOK",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.9626,
+          3.0675,
+          2.057
+        ],
+        "max": [
+          -1.9365,
+          3.0878,
+          2.113
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BLACK_METAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_53_WARDROBE_RIGHT_WICKER_BASKET_BASE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.7589,
+          2.6771,
+          2.5159
+        ],
+        "max": [
+          -1.5935,
+          2.9366,
+          2.5555
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_54_WARDROBE_RIGHT_WICKER_BASKET_RING_1",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.764,
+          2.6692,
+          2.5486
+        ],
+        "max": [
+          -1.5884,
+          2.9445,
+          2.5625
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_55_WARDROBE_RIGHT_WICKER_BASKET_RING_2",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.764,
+          2.6692,
+          2.5833
+        ],
+        "max": [
+          -1.5884,
+          2.9445,
+          2.5971
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_56_WARDROBE_RIGHT_WICKER_BASKET_RING_3",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.764,
+          2.6692,
+          2.6179
+        ],
+        "max": [
+          -1.5884,
+          2.9445,
+          2.6318
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_WARDROBE_57_WARDROBE_RIGHT_WICKER_HANDLE",
+      "collections": [
+        "Furniture_MasterWardrobe_2M"
+      ],
+      "bounds": {
+        "min": [
+          -1.6812,
+          2.6978,
+          2.6234
+        ],
+        "max": [
+          -1.6712,
+          2.9159,
+          2.8
+        ]
+      },
+      "materials": [
+        "MAT_PREVIEW_BRASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_01_BODY",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          -0.6209,
+          4.548,
+          0.8967
+        ],
+        "max": [
+          0.1123,
+          4.5988,
+          1.314
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_GRAPHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_01_SCREEN",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          -0.6008,
+          4.5412,
+          0.9196
+        ],
+        "max": [
+          0.0922,
+          4.548,
+          1.2911
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_SCREEN"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_01_STAND_NECK",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          -0.2797,
+          4.5628,
+          0.7726
+        ],
+        "max": [
+          -0.2289,
+          4.6022,
+          0.8619
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_STAND"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_01_STAND_BASE",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          -0.3897,
+          4.5035,
+          0.7726
+        ],
+        "max": [
+          -0.1189,
+          4.6615,
+          0.7996
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_STAND"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_02_BODY",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          0.2251,
+          4.548,
+          0.8967
+        ],
+        "max": [
+          0.9584,
+          4.5988,
+          1.314
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_GRAPHITE"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_02_SCREEN",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          0.2453,
+          4.5412,
+          0.9196
+        ],
+        "max": [
+          0.9382,
+          4.548,
+          1.2911
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_SCREEN"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_02_STAND_NECK",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          0.5664,
+          4.5628,
+          0.7726
+        ],
+        "max": [
+          0.6171,
+          4.6022,
+          0.8619
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_STAND"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_MASTER_MONITOR_02_STAND_BASE",
+      "collections": [
+        "Furniture_MasterMonitors"
+      ],
+      "bounds": {
+        "min": [
+          0.4564,
+          4.5035,
+          0.7726
+        ],
+        "max": [
+          0.7271,
+          4.6615,
+          0.7996
+        ]
+      },
+      "materials": [
+        "MAT_MONITOR_STAND"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_HEADBOARD_30MM",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.32,
+          -1.22,
+          0.3
+        ],
+        "max": [
+          -5.29,
+          0.78,
+          1.46
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_HEADBOARD_UPHOLSTERED_PANEL",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.2905,
+          -1.02,
+          0.57
+        ],
+        "max": [
+          -5.2655,
+          0.58,
+          1.19
+        ]
+      },
+      "materials": [
+        "VS2_MAT_LIGHT_GREY_TEXTILE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_PLATFORM_2000x2170",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.29,
+          -1.22,
+          0.0
+        ],
+        "max": [
+          -3.12,
+          0.78,
+          0.36
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_PLATFORM_TOP_RAIL",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.29,
+          -1.22,
+          0.355
+        ],
+        "max": [
+          -3.12,
+          0.78,
+          0.425
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_SIDE_DRAWER_1",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.25,
+          0.778,
+          0.075
+        ],
+        "max": [
+          -4.29,
+          0.798,
+          0.305
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_SIDE_DRAWER_GROOVE_1",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.2,
+          0.799,
+          0.244
+        ],
+        "max": [
+          -4.34,
+          0.805,
+          0.256
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_SIDE_DRAWER_2",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -4.16,
+          0.778,
+          0.075
+        ],
+        "max": [
+          -3.2,
+          0.798,
+          0.305
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_SIDE_DRAWER_GROOVE_2",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -4.11,
+          0.799,
+          0.244
+        ],
+        "max": [
+          -3.25,
+          0.805,
+          0.256
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_FOOT_CONNECTION_TRIM",
+      "collections": [
+        "FURNITURE_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.1375,
+          -1.22,
+          0.36
+        ],
+        "max": [
+          -3.1025,
+          0.78,
+          0.44
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_BACK_600MM",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.35,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -2.32,
+          1.5,
+          2.7
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_WINDOW_SIDE_TALL",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.92,
+          -1.3,
+          0.0
+        ],
+        "max": [
+          -2.32,
+          -1.08,
+          2.7
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_DOOR_SIDE_TALL",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.92,
+          0.62,
+          0.0
+        ],
+        "max": [
+          -2.32,
+          1.5,
+          2.7
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_BASE_UNDER_OPEN_NICHE",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.92,
+          -1.07,
+          0.0
+        ],
+        "max": [
+          -2.32,
+          0.63,
+          0.62
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_UPPER_BRIDGE",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.92,
+          -1.07,
+          2.4
+        ],
+        "max": [
+          -2.32,
+          0.63,
+          2.7
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_COUNTERTOP",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.97,
+          -1.1,
+          0.63
+        ],
+        "max": [
+          -2.92,
+          0.66,
+          0.69
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_OPEN_NICHE_BACK",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.3675,
+          -1.07,
+          0.68
+        ],
+        "max": [
+          -2.3425,
+          0.63,
+          1.48
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_NICHE_SIDE_WINDOW",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.62,
+          -1.095,
+          0.67
+        ],
+        "max": [
+          -2.1,
+          -1.045,
+          1.49
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_NICHE_SIDE_DOOR",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.62,
+          0.605,
+          0.67
+        ],
+        "max": [
+          -2.1,
+          0.655,
+          1.49
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_TOP",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          -1.12,
+          2.41
+        ],
+        "max": [
+          -2.92,
+          0.68,
+          2.47
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_BOTTOM",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          -1.12,
+          1.47
+        ],
+        "max": [
+          -2.92,
+          0.68,
+          1.53
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_WINDOW_SIDE",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          -1.1,
+          1.47
+        ],
+        "max": [
+          -2.92,
+          -1.04,
+          2.47
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_DOOR_SIDE",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          0.6,
+          1.47
+        ],
+        "max": [
+          -2.92,
+          0.66,
+          2.47
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_VERTICAL_1",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          -0.5255,
+          1.5
+        ],
+        "max": [
+          -2.92,
+          -0.4805,
+          2.44
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_VERTICAL_2",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          0.0405,
+          1.5
+        ],
+        "max": [
+          -2.92,
+          0.0855,
+          2.44
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_MID_SHELF",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.0,
+          -1.07,
+          1.9475
+        ],
+        "max": [
+          -2.92,
+          0.63,
+          1.9925
+        ]
+      },
+      "materials": [
+        "VS2_MAT_CHARCOAL.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "CAB_SOUTH_V53_GRID_BACK",
+      "collections": [
+        "CABINET_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -2.37,
+          -1.07,
+          1.5
+        ],
+        "max": [
+          -2.35,
+          0.63,
+          2.44
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_SMOKED_GLASS.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_MATTRESS_1700x2000",
+      "collections": [
+        "SOFT_FURNISHING_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.24,
+          -1.07,
+          0.415
+        ],
+        "max": [
+          -3.24,
+          0.63,
+          0.705
+        ]
+      },
+      "materials": [
+        "VS2_MAT_LIGHT_GREY_TEXTILE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_DUVET",
+      "collections": [
+        "SOFT_FURNISHING_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -4.76,
+          -1.04,
+          0.69
+        ],
+        "max": [
+          -3.34,
+          0.6,
+          0.79
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_THROW_AT_FOOT",
+      "collections": [
+        "SOFT_FURNISHING_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -3.63,
+          -0.995,
+          0.79
+        ],
+        "max": [
+          -3.21,
+          0.555,
+          0.83
+        ]
+      },
+      "materials": [
+        "SOUTH_V53_WALNUT.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_PILLOW_1",
+      "collections": [
+        "SOFT_FURNISHING_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.105,
+          -0.91,
+          0.725
+        ],
+        "max": [
+          -4.675,
+          -0.29,
+          0.875
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    },
+    {
+      "name": "FURN_SOUTH_V53_PILLOW_2",
+      "collections": [
+        "SOFT_FURNISHING_SOUTH_BEDROOM_V53"
+      ],
+      "bounds": {
+        "min": [
+          -5.105,
+          -0.15,
+          0.725
+        ],
+        "max": [
+          -4.675,
+          0.47,
+          0.875
+        ]
+      },
+      "materials": [
+        "VS2_MAT_SOFT_WHITE.001"
+      ],
+      "videoReference": false
+    }
+  ]
 }
