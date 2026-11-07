@@ -1,11 +1,13 @@
 {
-  "version": "20261108-v1",
-  "content": "Latest whole-house plan, 1600x1800 south bed, bedside cabinet and interactive views",
-  "model_sha256": "ccdafbcc7ae68cb1ba5acac437880b1454c9fce5b89a67aff62656259130e80a",
-  "model_path": "releases/20261108-v1/house.glb",
-  "images": [
-    "Balcony_To_Kitchen.png",
-    "Kitchen_And_Sideboard.png",
-    "Living_To_Balcony.png"
+  "version": "20261108-measurements-v2",
+  "model": "releases/20261108-v1/house.glb",
+  "measurements": "releases/20261108-measurements-v2/measurements.json",
+  "source": "Interior_Realistic_V1.blend",
+  "features": [
+    "furniture IDs",
+    "wall and furniture plan distance",
+    "cabinet projection area",
+    "floor and wet-room wall area",
+    "tile quantities"
   ]
 }
