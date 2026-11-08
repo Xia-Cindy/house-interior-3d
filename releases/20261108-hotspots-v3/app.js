@@ -1,4 +1,4 @@
-import {installHotspots} from './hotspots.js';
+import {installHotspots} from './hotspots.js?v=2';
 import {installMeasurements} from './measurement-tools.js';
 import * as THREE from 'three';
 import {OrbitControls} from '../20261108-v1/vendor/OrbitControls.js';
