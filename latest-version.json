@@ -1,9 +1,9 @@
 {
-  "version": "20261109-editor-v10",
-  "dataVersion": "2026-11-09 editable v10",
-  "model": "releases/20261109-editor-v10/house.glb",
-  "measurements": "releases/20261109-editor-v10/measurements.json",
-  "source": "Interior_ContinuousFloor_V10.blend",
+  "version": "20261109-editor-v11",
+  "dataVersion": "2026-11-09 editable v11",
+  "model": "releases/20261109-editor-v11/house.glb",
+  "measurements": "releases/20261109-editor-v11/measurements.json",
+  "source": "Interior_ContinuousFloor_V11.blend",
   "features": [
     "continuous tiled doorways without sill stones",
     "electric wall 增01 thickened to 100 mm; door clearance 300 mm",
@@ -17,6 +17,6 @@
     "editor commits on Enter / blur instead of every keystroke",
     "master bedroom fake platform 2000x2500x150 with flush vanity 588",
     "int03 tall cabinets: purifier + robot + built-in fridge 905x594x1925",
-    "bathroom 900x700 bump + corner fridge 905x594x1925 with dining-facing door"
+    "bathroom basin/washer swap + 800x800 island with 1500x800 table"
   ]
 }
