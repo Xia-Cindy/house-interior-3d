@@ -1,16 +1,15 @@
 {
-  "version": "20261108-hotspots-v3",
-  "model": "releases/20261108-v1/house.glb",
-  "measurements": "releases/20261108-hotspots-v3/measurements.json",
-  "source": "Interior_Realistic_V1.blend",
+  "version": "20261108-editor-v4",
+  "model": "releases/20261108-editor-v4/house.glb",
+  "measurements": "releases/20261108-editor-v4/measurements.json",
+  "source": "Interior_ContinuousFloor_V4.blend",
   "features": [
-    "furniture IDs",
-    "wall and furniture plan distance",
-    "cabinet projection area",
-    "floor and wet-room wall area",
-    "tile quantities",
-    "10 clickable room destinations",
-    "21 furniture hotspots",
-    "interactive cabinet interior inspection"
+    "continuous tiled doorways without sill stones",
+    "wall and furniture dimension trial",
+    "cabinet grid widths and heights",
+    "open cells, doors and real drawer boxes",
+    "undo and local draft JSON",
+    "dynamic furniture distances and facade areas",
+    "wall edits suspend room tile quantities until structural review"
   ]
 }
