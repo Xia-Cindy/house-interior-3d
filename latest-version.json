@@ -1,13 +1,16 @@
 {
-  "version": "20261108-measurements-v2",
+  "version": "20261108-hotspots-v3",
   "model": "releases/20261108-v1/house.glb",
-  "measurements": "releases/20261108-measurements-v2/measurements.json",
+  "measurements": "releases/20261108-hotspots-v3/measurements.json",
   "source": "Interior_Realistic_V1.blend",
   "features": [
     "furniture IDs",
     "wall and furniture plan distance",
     "cabinet projection area",
     "floor and wet-room wall area",
-    "tile quantities"
+    "tile quantities",
+    "10 clickable room destinations",
+    "21 furniture hotspots",
+    "interactive cabinet interior inspection"
   ]
 }
