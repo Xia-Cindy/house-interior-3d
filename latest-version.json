@@ -1,15 +1,19 @@
 {
-  "version": "20261108-editor-v4",
-  "model": "releases/20261108-editor-v4/house.glb",
-  "measurements": "releases/20261108-editor-v4/measurements.json",
-  "source": "Interior_ContinuousFloor_V4.blend",
+  "version": "20261108-editor-v5",
+  "dataVersion": "2026-11-08 editable v5",
+  "model": "releases/20261108-editor-v5/house.glb",
+  "measurements": "releases/20261108-editor-v5/measurements.json",
+  "source": "Interior_ContinuousFloor_V5.blend",
   "features": [
     "continuous tiled doorways without sill stones",
+    "electric wall 增01 thickened to 100 mm; door clearance 300 mm",
+    "south bedroom bed flush to cabinet, bedside niche retained",
     "wall and furniture dimension trial",
     "cabinet grid widths and heights",
     "open cells, doors and real drawer boxes",
     "undo and local draft JSON",
     "dynamic furniture distances and facade areas",
-    "wall edits suspend room tile quantities until structural review"
+    "static shadow map and merged decorative meshes",
+    "editor commits on Enter / blur instead of every keystroke"
   ]
 }
