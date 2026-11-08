@@ -1,9 +1,9 @@
 {
-  "version": "20261108-editor-v5",
-  "dataVersion": "2026-11-08 editable v5",
-  "model": "releases/20261108-editor-v5/house.glb",
-  "measurements": "releases/20261108-editor-v5/measurements.json",
-  "source": "Interior_ContinuousFloor_V5.blend",
+  "version": "20261108-editor-v6",
+  "dataVersion": "2026-11-08 editable v6",
+  "model": "releases/20261108-editor-v6/house.glb",
+  "measurements": "releases/20261108-editor-v6/measurements.json",
+  "source": "Interior_ContinuousFloor_V6.blend",
   "features": [
     "continuous tiled doorways without sill stones",
     "electric wall 增01 thickened to 100 mm; door clearance 300 mm",
@@ -14,6 +14,7 @@
     "undo and local draft JSON",
     "dynamic furniture distances and facade areas",
     "static shadow map and merged decorative meshes",
-    "editor commits on Enter / blur instead of every keystroke"
+    "editor commits on Enter / blur instead of every keystroke",
+    "master bedroom fake platform 2000x2500x150 with flush vanity 588"
   ]
 }
