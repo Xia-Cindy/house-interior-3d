@@ -1,0 +1,15 @@
+export const FIXED_IDS=new Set(['F01','F02','F03','F04','F06','F07','F08','F09','F13','F16','F18','F21','F25']);
+export function validateLayout(state,ids,fixed=FIXED_IDS){if(!state||typeof state!=='object'||Array.isArray(state)||Object.keys(state).length>150)throw Error('无效布局');for(const [id,p] of Object.entries(state)){if(!ids.has(id))throw Error('未知家具 '+id);if(fixed.has(id))throw Error('固定柜体不可移动 '+id);if(!p||![p.x,p.y,p.z,p.angle].every(Number.isFinite)||Math.abs(p.x)>30000||Math.abs(p.y)>30000||p.z<0||p.z>4000||Math.abs(p.angle)>3600||typeof p.placed!=='boolean')throw Error('位置须为有效毫米数值，离地高度0–4000mm')}return true}
+export function transformPlan(entity,p){const b=entity.bounds,c=[(b[0][0]+b[0][1])/2,(b[1][0]+b[1][1])/2],r=p.angle*Math.PI/180,cs=Math.cos(r),sn=Math.sin(r),f=v=>[p.x+(v[0]-c[0])*cs-(v[1]-c[1])*sn,p.y+(v[0]-c[0])*sn+(v[1]-c[1])*cs];const footprint=entity.footprint.map(g=>({outer:g.outer.map(f),holes:g.holes.map(a=>a.map(f))}));const corners=[[b[0][0],b[1][0]],[b[0][1],b[1][0]],[b[0][1],b[1][1]],[b[0][0],b[1][1]]].map(f);return {footprint,bounds:[[Math.min(...corners.map(v=>v[0])),Math.max(...corners.map(v=>v[0]))],[Math.min(...corners.map(v=>v[1])),Math.max(...corners.map(v=>v[1]))],[p.z,p.z+b[2][1]-b[2][0]]],anchor:[p.x,p.y,p.z+(b[2][1]-b[2][0])/2]}}
+export function pointInPolygon(p,polygons){function inside(r){let yes=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const a=r[i],b=r[j];if((a[1]>p[1])!==(b[1]>p[1])&&p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0])yes=!yes}return yes}return polygons.some(g=>inside(g.outer)&&!g.holes?.some(inside))}
+// millimetre grid plus axis-aligned wall edge snapping, keeping a small trial clearance.
+export function snapPlacement(entity,p,walls,{step=100,wallSnap=true,threshold=120,gap=10}={}){
+ let result={...p,x:step?Math.round(p.x/step)*step:p.x,y:step?Math.round(p.y/step)*step:p.y};
+ if(!wallSnap)return result;
+ let bounds=transformPlan(entity,result).bounds,bestX=null,bestY=null;
+ for(const wall of walls){const b=wall.bounds,dx=b[0][1]-b[0][0],dy=b[1][1]-b[1][0];
+  if(dy>dx&&Math.min(bounds[1][1],b[1][1])>Math.max(bounds[1][0],b[1][0]))for(const d of [b[0][0]-gap-bounds[0][1],b[0][1]+gap-bounds[0][0]])if(Math.abs(d)<=threshold&&(bestX===null||Math.abs(d)<Math.abs(bestX)))bestX=d;
+  if(dx>dy&&Math.min(bounds[0][1],b[0][1])>Math.max(bounds[0][0],b[0][0]))for(const d of [b[1][0]-gap-bounds[1][1],b[1][1]+gap-bounds[1][0]])if(Math.abs(d)<=threshold&&(bestY===null||Math.abs(d)<Math.abs(bestY)))bestY=d;
+ }
+ return {...result,x:Math.round(result.x+(bestX??0)),y:Math.round(result.y+(bestY??0))};
+}

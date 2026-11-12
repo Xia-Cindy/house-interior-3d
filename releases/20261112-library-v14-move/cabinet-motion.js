@@ -1,0 +1,18 @@
+import * as THREE from 'three';
+// Motion defaults are design previews; hinge side and hardware are not construction specifications.
+export function createCabinetMotion(model,store,dirty){let joints=[],byMesh=new Map(),closed=new Map();
+ const box=o=>new THREE.Box3().setFromObject(o),frontPatterns=/^(SH-(LOW|UP)|DB-LOW|DB_NEW_UPPER_DOOR|DB_FORMER_ROBOT_FULL_DOOR|DB_LIFT_FLAP|K_BASE_(17|18)_DOOR|K18_UPPER_FRONT|K20_DOOR|TV_SLIDER|MB_SLIDING_DOOR|MB_ENTRY_DRAWER|MB_VANITY_DRAWER|NT_UPPER_DOOR|NT_WINDOW_RETURN_DOOR|SC_MAIN_DOOR|SC_NICHE_UPPER_DOOR|SC_NICHE_DRAWER|BATH_BASIN_DOOR|CORNER_FRIDGE_DOOR)/;
+ function write(o,m){o.parent.updateWorldMatrix(true,false);const local=o.parent.matrixWorld.clone().invert().multiply(m);local.decompose(o.position,o.quaternion,o.scale);o.matrixAutoUpdate=true;o.updateMatrixWorld(true)}
+ function rebuild(){joints=[];byMesh.clear();closed.clear();model.updateMatrixWorld(true);model.traverse(o=>{if(o.isMesh)closed.set(o.uuid,o.matrixWorld.clone())});for(const e of store.data.entities.filter(e=>e.kind==='furniture')){let i=0;for(const name of e.objects){const o=model.getObjectByName(name);if(!o||!o.visible||!(frontPatterns.test(name)||o.userData.parametricFront))continue;const b=box(o),size=b.getSize(new THREE.Vector3()),center=b.getCenter(new THREE.Vector3());let type=/SLID/.test(name)?'slide':/LIFT_FLAP/.test(name)?'lift':/DRAWER/.test(name)?'drawer':'hinge';let side=e.facadeAxis==='Y',front=new THREE.Vector3(side?1:0,0,side?0:(['F24','F25'].includes(e.id)?-1:1));let pivot=center.clone(),axis=new THREE.Vector3(0,1,0),angle=0,travel=0,parts=[o];
+ if(type==='hinge'){const right=(i++%2)===1;if(side){pivot.z=right?b.max.z:b.min.z;angle=right?-Math.PI/2:Math.PI/2}else{pivot.x=right?b.max.x:b.min.x;angle=(right?1:-1)*front.z*Math.PI/2} }
+ if(type==='lift'){pivot.y=b.max.y;axis.set(1,0,0);angle=-Math.PI*.51}
+ if(type==='slide'){travel=name.startsWith('TV_')?.884*(store.sizes(e)[0]/3516):Math.min(.84,store.sizes(e)[0]/4000);front.set(name.endsWith('01')?-1:name.endsWith('02')?1:name.endsWith('_1')?1:-1,0,0)}
+ if(type==='drawer'){travel=Math.min(.45,(side?size.x:Math.max(.25,(e.bounds[1][1]-e.bounds[1][0])/1000))*.7);if(name.startsWith('EDIT_')){const prefix=name.replace(/_FRONT$/,'');parts=e.objects.filter(n=>n.startsWith(prefix+'_')).map(n=>model.getObjectByName(n)).filter(Boolean)}}
+ if(name.startsWith('BATH_BASIN_DOOR_')){const h=model.getObjectByName(name.replace('DOOR','HANDLE'));if(h)parts.push(h)}if(name.startsWith('CORNER_FRIDGE_DOOR_')){const h=model.getObjectByName(name.replace('DOOR','HANDLE'));if(h)parts.push(h)}
+ const j={id:e.id,name,type,parts,pivot,axis,angle,travel,front,value:0,target:0};joints.push(j);parts.forEach(p=>byMesh.set(p.uuid,j))}}
+ }
+ function apply(j){const m=j.type==='slide'||j.type==='drawer'?new THREE.Matrix4().makeTranslation(...j.front.clone().multiplyScalar(j.travel*j.value).toArray()):new THREE.Matrix4().makeTranslation(...j.pivot.toArray()).multiply(new THREE.Matrix4().makeRotationAxis(j.axis,j.angle*j.value)).multiply(new THREE.Matrix4().makeTranslation(...j.pivot.clone().negate().toArray()));j.parts.forEach(o=>write(o,m.clone().multiply(closed.get(o.uuid))))}
+ function tick(dt){let changed=false;for(const j of joints){if(Math.abs(j.value-j.target)<.0001)continue;j.value=THREE.MathUtils.damp(j.value,j.target,9,dt);if(Math.abs(j.value-j.target)<.001)j.value=j.target;apply(j);changed=true}if(changed)dirty()}
+ function close(){for(const j of joints){j.value=j.target=0;apply(j)}}
+ return {rebuild,tick,close,find:o=>byMesh.get(o?.uuid),list:id=>joints.filter(j=>j.id===id),toggle:j=>{j.target=j.target?0:1},toggleAll:id=>{const js=joints.filter(j=>j.id===id),v=js.some(j=>!j.target)?1:0;js.forEach(j=>j.target=v)},get joints(){return joints}};
+}

@@ -1,8 +1,8 @@
 {
-  "version": "20261112-library-v14",
+  "version": "20261112-library-v14-move",
   "dataVersion": "2026-11-10 editable v12",
-  "model": "releases/20261112-library-v14/house.glb",
-  "measurements": "releases/20261112-library-v14/measurements.json",
+  "model": "releases/20261112-library-v14-move/house.glb",
+  "measurements": "releases/20261112-library-v14-move/measurements.json",
   "source": "Interior_ContinuousFloor_V12.blend",
   "features": [
     "V12 architecture and dimensions retained; continuous tiled floors",

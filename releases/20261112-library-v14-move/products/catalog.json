@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "products": [
+    {
+      "id": "P001",
+      "name": "小天鹅 迷你小乌梅2.0 Max 多筒组合机",
+      "modelCode": "TND40-09AID+TXX30U20+TG10VE00（图片识别，待核对）",
+      "asset": "P001_littleswan.glb",
+      "thumbnail": "P001_littleswan.png",
+      "dimensionsMm": [
+        595,
+        620,
+        1775
+      ],
+      "reservationMm": [
+        625,
+        650,
+        1790
+      ],
+      "source": "用户2026-11-12产品正面图",
+      "status": "尺寸来自图片标注；侧背面、管口、门轴与开启包络待核实。外观近似模型，非厂家CAD。",
+      "placement": "floor",
+      "defaultPlaced": false
+    },
+    {
+      "id": "F26",
+      "name": "海尔净沐Ultra智能马桶",
+      "asset": "F26_Haier.glb",
+      "thumbnail": "F26_Haier.png",
+      "dimensionsMm": [
+        412,
+        697,
+        500
+      ],
+      "reservationMm": null,
+      "status": "尺寸来自用户图片；外观近似，坑距与盖板开启包络待确认。",
+      "defaultPlaced": false
+    },
+    {
+      "id": "F24",
+      "name": "海尔549L四门冰箱",
+      "asset": "F24_Haier.glb",
+      "thumbnail": "F24_Haier.png",
+      "dimensionsMm": [
+        830,
+        637,
+        1850
+      ],
+      "reservationMm": [
+        1030,
+        737,
+        1950
+      ],
+      "status": "尺寸及最小预留来自用户图片；外观近似，型号和开门空间待核实。",
+      "defaultPlaced": false
+    }
+  ]
+}
