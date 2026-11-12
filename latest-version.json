@@ -1,22 +1,15 @@
 {
-  "version": "20261110-editor-v12",
+  "version": "20261112-library-v13",
   "dataVersion": "2026-11-10 editable v12",
-  "model": "releases/20261110-editor-v12/house.glb",
-  "measurements": "releases/20261110-editor-v12/measurements.json",
+  "model": "releases/20261112-library-v13/house.glb",
+  "measurements": "releases/20261112-library-v13/measurements.json",
   "source": "Interior_ContinuousFloor_V12.blend",
   "features": [
-    "continuous tiled doorways without sill stones",
-    "electric wall 增01 thickened to 100 mm; door clearance 300 mm",
-    "south bedroom bed flush to cabinet, bedside niche retained",
-    "wall and furniture dimension trial",
-    "cabinet grid widths and heights",
-    "open cells, doors and real drawer boxes",
-    "undo and local draft JSON",
-    "dynamic furniture distances and facade areas",
-    "static shadow map and merged decorative meshes",
-    "editor commits on Enter / blur instead of every keystroke",
-    "master bedroom fake platform 2000x2500x150 with flush vanity 588",
-    "int03 tall cabinets: purifier + robot + built-in fridge 905x594x1925",
-    "bathroom bump removed (load-bearing); basin south + washer north + island table"
+    "V12 architecture and dimensions retained; continuous tiled floors",
+    "fixed cabinets with independent moving doors and drawers",
+    "left furniture library: drag, rotate, copy, undo and local layout drafts",
+    "P001 LittleSwan 595x620x1775 mm; reservation 625x650x1790 mm",
+    "live planar distances after furniture placement",
+    "water and electrical design deferred"
   ]
 }
