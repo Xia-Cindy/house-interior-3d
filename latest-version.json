@@ -1,8 +1,8 @@
 {
-  "version": "20261112-library-v13-zoom",
+  "version": "20261112-library-v14",
   "dataVersion": "2026-11-10 editable v12",
-  "model": "releases/20261112-library-v13-zoom/house.glb",
-  "measurements": "releases/20261112-library-v13-zoom/measurements.json",
+  "model": "releases/20261112-library-v14/house.glb",
+  "measurements": "releases/20261112-library-v14/measurements.json",
   "source": "Interior_ContinuousFloor_V12.blend",
   "features": [
     "V12 architecture and dimensions retained; continuous tiled floors",
@@ -10,6 +10,9 @@
     "left furniture library: drag, rotate, copy, undo and local layout drafts",
     "P001 LittleSwan 595x620x1775 mm; reservation 625x650x1790 mm",
     "live planar distances after furniture placement",
-    "water and electrical design deferred"
+    "water and electrical design deferred",
+    "V14: movable furniture initially unplaced; F27 retired",
+    "F24 Haier fridge 830x637x1850; F26 Haier toilet 412x697x500",
+    "pointer drag/drop; 50/100mm grid and wall snap; click-to-place fallback"
   ]
 }
